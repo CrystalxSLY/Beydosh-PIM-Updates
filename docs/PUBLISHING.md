@@ -1,8 +1,8 @@
 # Veröffentlichung: signed-plain-v2
 
-[Übersicht](../README.md) · [Kanalstruktur](../updates/stable/README.md) · [Aktueller Nachweis](releases/0.9.56-publication.md)
+[Übersicht](../README.md) · [Kanalstruktur](../updates/stable/README.md) · [Aktueller Nachweis](releases/0.9.95-publication.md)
 
-Stand: 23.09.2026, aktiver Owner-Development-Release 0.9.56. Dieses Repository ist kein automatisches Deployment-Ziel. Eine Dokumentationsänderung baut, signiert oder aktiviert keine Anwendung.
+Stand: 06.10.2026, aktiver Owner-Development-Release 0.9.95. Dieses Repository ist kein automatisches Deployment-Ziel. Eine Dokumentationsänderung baut, signiert oder aktiviert keine Anwendung.
 
 ## Freigabe und Verantwortung
 
@@ -58,10 +58,16 @@ Fehler vor der Aktivierung lassen den bisherigen Latest unverändert. Ein Fehler
 
 ## Wiederherstellung und Freigabegrenzen
 
-Lokaler transaktionaler Rollback nach einem fehlgeschlagenen Start unterscheidet sich von einem veröffentlichten Remote-Downgrade. Recovery braucht eigene Autorisierung und muss Highest-Seen-/Anti-Replay-/Previous-Manifest-Regeln erfüllen. Das aktuelle 0.9.56-Manifest kennzeichnet Remote-Rollback als `blocked`; ein synthetischer Staging-Rollback ist damit nicht gleichzusetzen.
+Lokaler transaktionaler Rollback nach einem fehlgeschlagenen Start unterscheidet sich von einem veröffentlichten Remote-Downgrade. Recovery braucht eigene Autorisierung und muss Highest-Seen-/Anti-Replay-/Previous-Manifest-Regeln erfüllen. Das aktuelle 0.9.95-Manifest kennzeichnet Remote-Rollback als `blocked`; ein synthetischer Staging-Rollback ist damit nicht gleichzusetzen.
 
 Die Trust-Bezeichnung `Production` wählt einen kryptografischen Verifier, keine fachliche oder rechtliche Freigabe. Owner-Schlüssel begründen keine vom lokalen Builder unabhängige Produktprovenienz und keine Authenticode-/SmartScreen-Reputation.
 
 ## Dokumentationsänderungen
 
 Nur Markdown ändern, relative Links und Versionsangaben prüfen und die Unverändertheit aller übrigen Dateien nachweisen. Keine Versionsanhebung, Neuunterzeichnung, Tags, Release-Assets oder Latest-Änderung allein für Dokumentation. Historische Berichte behalten ihren zeitlichen Geltungsbereich.
+
+## Sichere Umbenennung des Repositorys
+
+Zielname: `Beydosh-PIM-Updates`. Vor der Umbenennung ein Übergangsupdate im bisherigen Kanal veröffentlichen und den Abruf mit installierter App sowie Launcher und Wartungskomponenten prüfen. Die aktuelle Implementierung verwendet den bisherigen Namen fest, lehnt Metadatenweiterleitungen ab und bindet Release-Asset-URLs exakt an das Repository. GitHub-Weiterleitungen allein sind deshalb kein Kompatibilitätsnachweis.
+
+Bereits veröffentlichte signierte Manifeste und Pakete bleiben unverändert. Alte und neue erlaubte Pfade müssen eng begrenzt und getestet sein; keine allgemeine Freigabe fremder Ziele. Erst nach dem erfolgreichen Übergang Repositoryname, aktive Konfiguration, Operatorwerkzeuge und aktuelle Dokumentationslinks gemeinsam umstellen. Ohne diesen Nachweis bleibt die bisherige technische Adresse erhalten.
