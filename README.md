@@ -1,12 +1,12 @@
-# Beydosh PIM Update Channel
+# Beydosh-PIM-Updates
 
 Öffentlicher Kanal für signierte Updates der Beydosh-Windows-Anwendung. Dieses Repository enthält Update-Metadaten, Dokumentation und Verweise auf Pakete, nicht den Anwendungsquellcode.
 
 ## Aktueller Stand
 
-Dokumentationsstand: **25. September 2026**. Im signierten Kanal ist **0.9.65** aktiviert. Die GitHub-Veröffentlichung ist ein **Owner-Development-Prerelease**, keine Freigabe für Live-Verkauf oder eine fertig abgenommene öffentliche Produktversion. Der Verzeichnisname `stable` ändert diese Einordnung nicht.
+Dokumentationsstand: **6. Oktober 2026**. Im signierten Kanal ist **0.9.95** aktiviert. Die GitHub-Veröffentlichung ist ein **Owner-Development-Prerelease**, keine Freigabe für Live-Verkauf oder eine fertig abgenommene öffentliche Produktversion. Der Verzeichnisname `stable` ändert diese Einordnung nicht.
 
-Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updates/stable/latest.beydosh.json), nicht diese Versionsangabe. [Release 0.9.65](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.65) enthält das Update-Paket.
+Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updates/stable/latest.beydosh.json), nicht diese Versionsangabe. [Release 0.9.95](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.95) enthält das Update-Paket.
 
 ## Dokumentation
 
@@ -15,16 +15,18 @@ Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updat
 - [Versionsarchiv 0.9.1–0.9.58](docs/CHANGELOG.md)
 - [Veröffentlichung und kryptografischer Update-Vertrag](docs/PUBLISHING.md)
 - [Kanalstruktur](updates/stable/README.md)
-- [Nachweise und Grenzen der Veröffentlichung 0.9.65](docs/releases/0.9.65-publication.md)
+- [Nachweise und Grenzen der Veröffentlichung 0.9.95](docs/releases/0.9.95-publication.md)
 - [Historischer Owner-Test 0.9.1](docs/releases/0.9.1-owner-test.md)
 
-## Neu in 0.9.65
+## Neu in 0.9.95
 
-Die Postfachverwaltung zeigt eine Liste eingerichteter Postfächer. „Postfach hinzufügen“ öffnet die Einrichtung mit Hinzufügen und Abbrechen. Bei Auswahl eines Postfachs erscheinen rechts dessen Einstellungen und Signatur. Anlegen und Bearbeiten nutzen ein gemeinsames Formular. Doppelte Bereichsüberschriften entfallen im globalen Header. [Patch Notes](docs/releases/0.9.65-patch-notes.txt).
+Die eBay-Anmeldung lässt die deutsche Weiterleitung von `auth2.ebay.com` zu `auth2.ebay.de` zu. HTTPS, Standardport, getrennte Sandbox-Ziele und die sichere OAuth-Rückgabe bleiben begrenzt. Passende Production-Zugangsdaten, eine erfolgreiche Kontoanmeldung sowie die weiteren Verkaufsfreigaben bleiben erforderlich. Dieses Update bestätigt kein online veröffentlichtes Angebot.
 
-## Grundlage aus 0.9.64
+Der zentrale Cloudflare-Anmeldedienst und die dazugehörigen noch unveröffentlichten PIM-Änderungen gehören nicht zum Release 0.9.95.
 
-Gemeinsame Symbole, Schließen-Buttons, Eingabefelder, Zahlenverarbeitung und Entwurfsspeicherung wurden zusammengeführt. Ohne Postfach zeigt E-Mail nur die Verbindungsaktion; mit Postfach gibt es eine dunkle Leseansicht und einen getrennten Schreibmodus. Die erste Mail-Beta bleibt auf manuelle IMAP-/SMTP-Aktionen begrenzt; keine automatische Synchronisierung und keine neuen eBay-Livefunktionen. Details und Testgrenzen stehen im Veröffentlichungsnachweis.
+## Geplanter Repositoryname
+
+Der gewünschte Name ist **Beydosh-PIM-Updates**. Die technische Repositoryadresse bleibt bis zur kompatiblen Umstellung `CrystalxSLY/beydosh-updates`. Bestehende Updater verwenden diese Adresse fest und lehnen Metadatenweiterleitungen ab. Zuerst müssen ein geprüftes Übergangsupdate und die Kompatibilität vorhandener signierter Manifeste sichergestellt werden; erst danach wird das Repository umbenannt.
 
 ## Update installieren
 
