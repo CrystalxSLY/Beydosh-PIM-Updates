@@ -2,7 +2,7 @@
 
 [Zur Übersicht](../README.md) · [Fehlerhilfe](TROUBLESHOOTING.md) · [Versionshistorie](CHANGELOG.md)
 
-Stand: 0.9.58, 23.09.2026. Beschrieben ist der aktuelle Owner-Development-Stand, keine Freigabe für produktiven Handel.
+Stand: 0.9.96, 07.10.2026. Beschrieben ist der aktuelle Owner-Development-Stand, keine Freigabe für produktiven Handel.
 
 ## 1. Aktualisieren und Daten erhalten
 
@@ -11,6 +11,10 @@ Stand: 0.9.58, 23.09.2026. Beschrieben ist der aktuelle Owner-Development-Stand,
 Programmdateien liegen normalerweise unter `%LOCALAPPDATA%/Programs/Beydosh`, Benutzerdaten getrennt unter `%LOCALAPPDATA%/Beydosh`. Vor größeren Importänderungen die Anwendung schließen und eine geeignete Sicherung der eigenen Daten anlegen. Das Beibehalten von Daten bei einer Deinstallation ersetzt keine Sicherung. Zugangsdaten liegen in gesonderten Windows-Vault-Einträgen; sie gehören nicht in veröffentlichte Archive.
 
 Alte Programmversionen nicht ungeprüft über neuere Daten installieren. Eine vorhandene ältere Setup-Datei ist keine sichere Datenmigration oder Rücksetzfunktion.
+
+### Übergangsupdate 0.9.96
+
+0.9.96 bereitet den Kanalnamen Beydosh-PIM-Updates vor. Das Repository bleibt vorerst unter der bisherigen Adresse erreichbar. Das Update regulär installieren und neu starten; die Anwendung kann dabei ihren mitgelieferten Wartungshelfer zur Aktualisierung des Launchers verwenden. Eine Versionsanzeige allein bestätigt noch nicht den Stand aller Wartungskomponenten. Keine alten Setup-Dateien darüberkopieren und keine Vertrauensprüfungen abschalten.
 
 ## 2. Shopwährung und Einkaufspreise
 
@@ -137,11 +141,29 @@ Bei Rückfragen wird der entsprechende Reiter geöffnet. Fragen lassen sich zur 
 
 In Märkten/Versand ist der Assistent erst für einen bereits erstellten und ausgewählten Kanal/Dienst verfügbar. Die Bereiche bleiben getrennt: Märkte dürfen keine Kategorien oder Versandtarife erstellen, Versand darf keine Marktregeln ändern und Kategorien keine fremden Bereiche bearbeiten.
 
-Der Arbeitsauftrag beschreibt das gewünschte Ergebnis. Bei Märkten und Versand wird er aus dem Gespräch fortgeschrieben, wenn der Nutzer Änderungen wünscht. Das ist keine automatische Freigabe des resultierenden Regelentwurfs. Entwürfe prüfen und bewusst übernehmen; neue/geänderte Regeln bleiben zur Prüfung pausiert.
+Der Arbeitsauftrag beschreibt das gewünschte Ergebnis. Bei Märkten und Versand wird er aus dem Gespräch fortgeschrieben, wenn der Nutzer Änderungen wünscht. Das ist keine automatische Freigabe des resultierenden Regelentwurfs. Entwürfe prüfen und bewusst übernehmen. Neue Regeln bleiben zur Prüfung pausiert; Änderungen bestehender Marktregeln behalten seit 0.9.94 deren bisherigen Aktivierungszustand. Eine aktive Regel ist keine Plattform-Veröffentlichung.
 
 Die KI soll recherchieren, erklären und einen prüfbaren Vorschlag erstellen. Notwendige kontospezifische Angaben oder Entscheidungen können Rückfragen erfordern. Quellen können veraltet oder unvollständig sein; bestätigte Webrecherche und reine Modellantworten sind zu unterscheiden. Gebühren-/Steuerannahmen nicht ungeprüft aktivieren.
 
 Anfragen gehen an den konfigurierten KI-Dienst und können Kosten verursachen. Verbrauchswerte sind nicht automatisch eine verlässliche Geldkostenabrechnung. Keine Zugangsdaten oder unnötigen personenbezogenen Daten in Arbeitsauftrag, Chat oder Entwurfsdateien eingeben. KI-Texte dürfen keine Produktdaten erfinden.
+
+## E-Mail und Kontakte
+
+Im E-Mail-Bereich ein eigenes Postfach einrichten. Zugangsdaten bleiben geschützt; Freigaben für das Lesen von Nachrichten bleiben erforderlich. Der Assistent nimmt natürliche Aufträge an: E-Mail schreiben, zusammenhängende Nachrichten zusammenfassen, mögliche offene Antworten suchen, Kontakte aus E-Mails ergänzen oder öffentliche Firmenkontakte recherchieren. Die Ausgabe richtet sich nach dem Auftrag: Antwort im Chat, E-Mail-Vorschau oder konkrete Fragen im Reiter Rückfragen.
+
+Kontakte stehen als eigene lokale Tabelle unter Spam, nicht als Nachrichtenordner. Firma, Ansprechpartner, Funktion, Telefon, Website und weitere belegte Angaben lassen sich pflegen. Der Kontaktimport kann normale Postfachordner einschließlich Gesendet abschnittsweise durchgehen, ohne manuelle Nachrichtenauswahl. Er übernimmt beobachtete Kopfzeilen und zuordenbare Signaturangaben, erhält Quellen und Konflikte und lässt sich nach Unterbrechung fortsetzen. Eine reine Kopfzeilenprüfung beweist keine vollständige Inhaltsauswertung und keinen garantiert vollständigen Firmenbestand. Mögliche offene Antworten bleiben Kandidaten.
+
+Der Mailassistent zeigt nur E-Mail-Vorschau und Rückfragen; Antworten und Weiterleitungen werden im Chat beauftragt. Gespeicherte KI-Entwürfe enthalten einen lokal verschlüsselten, postfachgebundenen Arbeitsstand mit Gespräch und offenen Punkten. Reine Chatantworten brauchen keinen neuen Entwurf. Empfänger, Betreff, Text und Anhänge vor Übernahme beziehungsweise ausdrücklichem Versand prüfen. Der Assistent versendet nicht automatisch. Recherchierte Kontakte und KI-Ausgaben bleiben prüfbedürftig; die veröffentlichten Nachweise ersetzen keine Abnahme eines privaten Postfachs.
+
+## Produktsuche und Preisregeln
+
+Die kompakte Produktsuche steht rechts über der Tabelle; Spaltenfilter ersetzen die große obere Filterleiste. Der Produktassistent kann ohne Vorauswahl suchen und Vorschläge je Artikel anzeigen. Feldsperren, Revisionsprüfungen und begrenzte Änderungsfreigaben bleiben bestehen.
+
+Preisregeln lassen sich mehreren Produkttypen zuordnen. Im selben Kanal und Land können verschiedene Typen verschiedene Regeln verwenden; überschneidende aktive Zuständigkeiten werden blockiert. Produkttyp und Kategorie sind verschiedene Zuordnungen. Seit 0.9.59 kann die Netto-/Brutto-Basis des importierten EK außerdem aus der zugeordneten Verbindungsvorlage stammen, ohne den gespeicherten Betrag umzuschreiben. Grundlage und Rechenweg vor Aktivierung prüfen.
+
+## eBay einrichten
+
+Die geführte Einrichtung trennt Verbindung, Konto, Marktplatz, Versandstandort, Richtlinien, Produkte und Preise sowie Prüfung. Sandbox und Echtbetrieb sind getrennte Umgebungen. Der veröffentlichte Stand verwendet weiterhin lokale Entwicklerdaten: Für Echtbetrieb sind passende Production-Daten und erfolgreiche OAuth-Zustimmung nötig. Der zentrale Cloudflare-Anmeldedienst für neutrale Nutzer ist nicht Bestandteil von 0.9.96. Eine Anmeldung oder Marktkalkulation allein veröffentlicht kein Angebot und hebt keine Verkaufsfreigaben auf.
 
 ## 8. Grenzen
 
