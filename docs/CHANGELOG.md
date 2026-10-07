@@ -8,7 +8,7 @@ Zeitangaben sind die UTC-Erstellungszeit signierter Metadaten, nicht zwingend di
 
 ## 0.9.97
 
-Metadaten erstellt: 2026-10-07T08:23:36.7299785+00:00 · [Manifest](../updates/stable/0.9.97/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.97)
+Metadaten erstellt: 2026-10-07T08:23:36.7299785+00:00 · [Manifest](../updates/stable/0.9.97/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.97)
 
 - Ergänzung zum Repository-Übergang: Die Anwendung fordert jetzt den kompatiblen Launcher und das Updatewerkzeug 0.9.97 an, statt die ältere Branding-Mindestversion genügen zu lassen.
 - Der vorhandene signierte Wartungshelfer und die bestätigte Prozessübergabe bleiben der einzige Aktualisierungspfad. Keine manuelle Ersetzung von Programmdateien.
@@ -18,7 +18,7 @@ Metadaten erstellt: 2026-10-07T08:23:36.7299785+00:00 · [Manifest](../updates/s
 
 ## 0.9.96
 
-Metadaten erstellt: 2026-10-07T08:12:46.3753143+00:00 · [Manifest](../updates/stable/0.9.96/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.96)
+Metadaten erstellt: 2026-10-07T08:12:46.3753143+00:00 · [Manifest](../updates/stable/0.9.96/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.96)
 
 - Übergangsupdate für den geplanten GitHub-Kanalnamen Beydosh-PIM-Updates.
 - Der gemeinsame Updater erlaubt ausschließlich den exakten Namenswechsel unter demselben GitHub-Eigentümer. Signaturen, Hashes, Versionsbindung, Größenlimits und Replay-Schutz bleiben bestehen.
@@ -28,7 +28,7 @@ Metadaten erstellt: 2026-10-07T08:12:46.3753143+00:00 · [Manifest](../updates/s
 
 ## 0.9.95
 
-Metadaten erstellt: 2026-10-05T14:21:51.1718461+00:00 · [Manifest](../updates/stable/0.9.95/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.95)
+Metadaten erstellt: 2026-10-05T14:21:51.1718461+00:00 · [Manifest](../updates/stable/0.9.95/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.95)
 
 - eBay-Anmeldung im Echtbetrieb: Die deutsche Weiterleitung von auth2.ebay.com zu auth2.ebay.de wird nun ebenfalls zugelassen.
 - Die erlaubten Ziele bleiben exakt begrenzt. HTTPS, Standardport, Sandbox-Trennung und sichere OAuth-Rückgabe bleiben geschützt.
@@ -36,7 +36,7 @@ Metadaten erstellt: 2026-10-05T14:21:51.1718461+00:00 · [Manifest](../updates/s
 
 ## 0.9.94
 
-Metadaten erstellt: 2026-10-05T14:01:12.8353688+00:00 · [Manifest](../updates/stable/0.9.94/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.94)
+Metadaten erstellt: 2026-10-05T14:01:12.8353688+00:00 · [Manifest](../updates/stable/0.9.94/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.94)
 
 - eBay-Echtbetrieb: Die bestätigte Weiterleitung auf auth2.ebay.com wird im Anmeldefenster zugelassen. HTTPS-, Host-, Sandbox- und Rückgabeschutz bleiben erhalten.
 - Änderungen bestehender Marktregeln durch die KI behalten den bisherigen Aktivierungszustand. Neue Regeln bleiben zunächst pausiert.
@@ -45,7 +45,7 @@ Metadaten erstellt: 2026-10-05T14:01:12.8353688+00:00 · [Manifest](../updates/s
 
 ## 0.9.93
 
-Metadaten erstellt: 2026-10-04T20:02:12.1564666+00:00 · [Manifest](../updates/stable/0.9.93/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.93)
+Metadaten erstellt: 2026-10-04T20:02:12.1564666+00:00 · [Manifest](../updates/stable/0.9.93/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.93)
 
 - Speicherfreigabe nach Hintergrundaufgaben und sichere Bereinigung temporärer Dateien verbessert.
 - Produkt- und Attributassistenten lesen gezielt benötigte Daten, statt den gesamten Produktbestand zu laden.
@@ -57,7 +57,7 @@ Metadaten erstellt: 2026-10-04T20:02:12.1564666+00:00 · [Manifest](../updates/s
 
 ## 0.9.92
 
-Metadaten erstellt: 2026-10-04T19:06:30.7754571+00:00 · [Manifest](../updates/stable/0.9.92/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.92)
+Metadaten erstellt: 2026-10-04T19:06:30.7754571+00:00 · [Manifest](../updates/stable/0.9.92/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.92)
 
 - Markt- und Versandkonfiguration laden nur noch die benötigten Grundlagen statt des gesamten Produktbestands.
 - Speicherfehler beim Marktassistenten und beim normalen Speichern von Verkaufskanälen behoben.
@@ -66,7 +66,7 @@ Metadaten erstellt: 2026-10-04T19:06:30.7754571+00:00 · [Manifest](../updates/s
 
 ## 0.9.91
 
-Metadaten erstellt: 2026-10-04T17:41:08.0298295+00:00 · [Manifest](../updates/stable/0.9.91/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.91)
+Metadaten erstellt: 2026-10-04T17:41:08.0298295+00:00 · [Manifest](../updates/stable/0.9.91/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.91)
 
 - Beydosh PIM 0.9.91
 - Produktliste: Die große obere Filterleiste entfällt. Die kompakte weiße Suche mit Lupensymbol und Platzhalter steht ganz rechts.
@@ -79,7 +79,7 @@ Metadaten erstellt: 2026-10-04T17:41:08.0298295+00:00 · [Manifest](../updates/s
 
 ## 0.9.90
 
-Metadaten erstellt: 2026-10-04T16:19:11.1740571+00:00 · [Manifest](../updates/stable/0.9.90/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.90)
+Metadaten erstellt: 2026-10-04T16:19:11.1740571+00:00 · [Manifest](../updates/stable/0.9.90/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.90)
 
 - Beydosh PIM 0.9.90
 - Kontaktpflege aus kurzen natürlichen Mailaufträgen: selbstständiger Import durch normale Postfachordner einschließlich Gesendet, ohne manuelle Mailauswahl und ohne erforderlichen E-Mail-Entwurf.
@@ -93,7 +93,7 @@ Metadaten erstellt: 2026-10-04T16:19:11.1740571+00:00 · [Manifest](../updates/s
 
 ## 0.9.89
 
-Metadaten erstellt: 2026-10-04T14:51:55.7489833+00:00 · [Manifest](../updates/stable/0.9.89/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.89)
+Metadaten erstellt: 2026-10-04T14:51:55.7489833+00:00 · [Manifest](../updates/stable/0.9.89/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.89)
 
 - Beydosh PIM 0.9.89
 - Kontakte unter Spam: lokale, filterbare Tabelle mit Firmen, Ansprechpartnern, Funktionen und Kontaktdaten; Hinzufügen, Bearbeiten und Löschen.
@@ -107,7 +107,7 @@ Metadaten erstellt: 2026-10-04T14:51:55.7489833+00:00 · [Manifest](../updates/s
 
 ## 0.9.88
 
-Metadaten erstellt: 2026-10-04T10:17:46.8201884+00:00 · [Manifest](../updates/stable/0.9.88/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.88)
+Metadaten erstellt: 2026-10-04T10:17:46.8201884+00:00 · [Manifest](../updates/stable/0.9.88/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.88)
 
 - Beydosh PIM 0.9.88
 - Der E-Mail-Assistent bearbeitet umfangreiche Rechercheaufträge selbstständig und erhält bereits belegte Kontakte sowie gültige Entwürfe.
@@ -121,7 +121,7 @@ Metadaten erstellt: 2026-10-04T10:17:46.8201884+00:00 · [Manifest](../updates/s
 
 ## 0.9.87
 
-Metadaten erstellt: 2026-10-01T21:55:49.6614243+00:00 · [Manifest](../updates/stable/0.9.87/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.87)
+Metadaten erstellt: 2026-10-01T21:55:49.6614243+00:00 · [Manifest](../updates/stable/0.9.87/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.87)
 
 - Beydosh PIM 0.9.87
 - Mailassistent: Korrekturversuche gelten pro Antwort statt für den gesamten Auftrag. Wiederholte Prüfprobleme führen zu sichtbaren Rückfragen; die konkrete Prüfmeldung erscheint im Aktivitätsverlauf.
@@ -133,7 +133,7 @@ Metadaten erstellt: 2026-10-01T21:55:49.6614243+00:00 · [Manifest](../updates/s
 
 ## 0.9.86
 
-Metadaten erstellt: 2026-10-01T20:57:47.1157487+00:00 · [Manifest](../updates/stable/0.9.86/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.86)
+Metadaten erstellt: 2026-10-01T20:57:47.1157487+00:00 · [Manifest](../updates/stable/0.9.86/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.86)
 
 - Beydosh PIM 0.9.86
 - Mailassistent: konkrete Prüfmeldungen an die KI zurückgeben, damit fehlerhafte Antworten automatisch korrigiert werden können.
@@ -143,7 +143,7 @@ Metadaten erstellt: 2026-10-01T20:57:47.1157487+00:00 · [Manifest](../updates/s
 
 ## 0.9.85
 
-Metadaten erstellt: 2026-10-01T20:28:18.4738028+00:00 · [Manifest](../updates/stable/0.9.85/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.85)
+Metadaten erstellt: 2026-10-01T20:28:18.4738028+00:00 · [Manifest](../updates/stable/0.9.85/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.85)
 
 - Beydosh PIM 0.9.85
 - Mailassistent: tatsächlich recherchierte Webquellen im Quellenfeld korrekt zuordnen, damit verwendbare E-Mail-Entwürfe erhalten bleiben.
@@ -153,7 +153,7 @@ Metadaten erstellt: 2026-10-01T20:28:18.4738028+00:00 · [Manifest](../updates/s
 
 ## 0.9.84
 
-Metadaten erstellt: 2026-10-01T20:13:24.602355+00:00 · [Manifest](../updates/stable/0.9.84/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.84)
+Metadaten erstellt: 2026-10-01T20:13:24.602355+00:00 · [Manifest](../updates/stable/0.9.84/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.84)
 
 - Beydosh PIM 0.9.84
 - Mailassistent: gespeicherte Postfachsignatur mit Formatierung verwenden; ohne gespeicherte Signatur eigene passende Signatur aus bekannten Absenderangaben.
@@ -164,7 +164,7 @@ Metadaten erstellt: 2026-10-01T20:13:24.602355+00:00 · [Manifest](../updates/st
 
 ## 0.9.83
 
-Metadaten erstellt: 2026-10-01T19:50:06.2474044+00:00 · [Manifest](../updates/stable/0.9.83/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.83)
+Metadaten erstellt: 2026-10-01T19:50:06.2474044+00:00 · [Manifest](../updates/stable/0.9.83/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.83)
 
 - Beydosh PIM 0.9.83
 - Mailassistent: Rechercheprüfung und E-Mail-Editor verwenden dieselbe Empfängerprüfung. Semikolonlisten und leere Felder mit Leerzeichen verursachen keinen nachträglichen Parserabbruch mehr.
@@ -173,7 +173,7 @@ Metadaten erstellt: 2026-10-01T19:50:06.2474044+00:00 · [Manifest](../updates/s
 
 ## 0.9.82
 
-Metadaten erstellt: 2026-10-01T19:39:07.2138035+00:00 · [Manifest](../updates/stable/0.9.82/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.82)
+Metadaten erstellt: 2026-10-01T19:39:07.2138035+00:00 · [Manifest](../updates/stable/0.9.82/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.82)
 
 - Beydosh PIM 0.9.82
 - Mailassistent: E-Mail-Vorschau und Rückfragen als getrennte Reiter. Rückfragen direkt im Eingabefeld beantworten; Übernehmen steht in der Vorschau bereit.
@@ -183,7 +183,7 @@ Metadaten erstellt: 2026-10-01T19:39:07.2138035+00:00 · [Manifest](../updates/s
 
 ## 0.9.81
 
-Metadaten erstellt: 2026-10-01T19:25:42.626722+00:00 · [Manifest](../updates/stable/0.9.81/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.81)
+Metadaten erstellt: 2026-10-01T19:25:42.626722+00:00 · [Manifest](../updates/stable/0.9.81/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.81)
 
 - Beydosh PIM 0.9.81
 - E-Mail-Assistent: Widersprüchliche Anweisungen für Datenabfragen und Entwürfe korrigiert. Der Entwurf wird nach der Datenabfrage erstellt.
@@ -192,7 +192,7 @@ Metadaten erstellt: 2026-10-01T19:25:42.626722+00:00 · [Manifest](../updates/st
 
 ## 0.9.80
 
-Metadaten erstellt: 2026-10-01T19:15:12.09069+00:00 · [Manifest](../updates/stable/0.9.80/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.80)
+Metadaten erstellt: 2026-10-01T19:15:12.09069+00:00 · [Manifest](../updates/stable/0.9.80/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.80)
 
 - Beydosh PIM 0.9.80
 - E-Mail-Assistent: Entwürfe bleiben bei offenen Recherchekontakten nutzbar. Unbestätigte Empfänger werden ausgelassen und kenntlich gemacht. Folgefragen erhalten den aktuellen Entwurf; Verbindungsfehler verwerfen ihn nicht.
@@ -203,7 +203,7 @@ Metadaten erstellt: 2026-10-01T19:15:12.09069+00:00 · [Manifest](../updates/sta
 
 ## 0.9.79
 
-Metadaten erstellt: 2026-10-01T18:35:10.1428755+00:00 · [Manifest](../updates/stable/0.9.79/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.79)
+Metadaten erstellt: 2026-10-01T18:35:10.1428755+00:00 · [Manifest](../updates/stable/0.9.79/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.79)
 
 - Beydosh PIM 0.9.79: Mail-Recherche mit dem gemeinsamen KI-Zugang verbessert.
 - Hersteller und andere freigegebene PIM-Felder lassen sich gefiltert und gruppiert abfragen; Wertelisten werden seitenweise geladen und verbleibende Grenzen sichtbar gekennzeichnet.
@@ -214,7 +214,7 @@ Metadaten erstellt: 2026-10-01T18:35:10.1428755+00:00 · [Manifest](../updates/s
 
 ## 0.9.78
 
-Metadaten erstellt: 2026-10-01T17:42:19.1864577+00:00 · [Manifest](../updates/stable/0.9.78/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.78)
+Metadaten erstellt: 2026-10-01T17:42:19.1864577+00:00 · [Manifest](../updates/stable/0.9.78/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.78)
 
 - Beydosh PIM 0.9.78: Gemeinsame Webrecherche im Grundgeruest aller sechs KI-Assistenten.
 - Mail-, Produkt- und Attributassistent recherchieren bei Bedarf oeffentliche Webquellen, ebenso Kategorien, Versand und Verkaufsmaerkte.
@@ -225,7 +225,7 @@ Metadaten erstellt: 2026-10-01T17:42:19.1864577+00:00 · [Manifest](../updates/s
 
 ## 0.9.77
 
-Metadaten erstellt: 2026-10-01T17:05:08.4241761+00:00 · [Manifest](../updates/stable/0.9.77/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.77)
+Metadaten erstellt: 2026-10-01T17:05:08.4241761+00:00 · [Manifest](../updates/stable/0.9.77/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.77)
 
 - Beydosh PIM 0.9.77
 - Der Mailassistent korrigiert nicht verfügbare Produktspalten anhand der freigegebenen Feldübersicht. Wiederholte oder zu umfangreiche Recherche wird verständlich beendet statt mit einer pauschalen Fehlermeldung.
@@ -236,7 +236,7 @@ Metadaten erstellt: 2026-10-01T17:05:08.4241761+00:00 · [Manifest](../updates/s
 
 ## 0.9.75
 
-Metadaten erstellt: 2026-10-01T15:50:40.0748753+00:00 · [Manifest](../updates/stable/0.9.75/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.75)
+Metadaten erstellt: 2026-10-01T15:50:40.0748753+00:00 · [Manifest](../updates/stable/0.9.75/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.75)
 
 - Beydosh PIM 0.9.75
 - Der Mailassistent kann Produktdaten jetzt gezielt wie eine Produktliste filtern: mehrere Spaltenbedingungen kombinieren, Attribute und Varianten berücksichtigen sowie Zahlen und fehlende Werte prüfen.
@@ -246,7 +246,7 @@ Metadaten erstellt: 2026-10-01T15:50:40.0748753+00:00 · [Manifest](../updates/s
 
 ## 0.9.74
 
-Metadaten erstellt: 2026-10-01T14:55:40.8000517+00:00 · [Manifest](../updates/stable/0.9.74/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.74)
+Metadaten erstellt: 2026-10-01T14:55:40.8000517+00:00 · [Manifest](../updates/stable/0.9.74/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.74)
 
 - Beydosh PIM: Gemeinsames KI-Assistentenlayout korrigiert.
 - KI-Anfragen und neue Teilanfragen öffnen Vorgeschlagene Änderungen; Arbeitsanzeige und Stopp befinden sich oben in diesem Reiter.
@@ -257,7 +257,7 @@ Metadaten erstellt: 2026-10-01T14:55:40.8000517+00:00 · [Manifest](../updates/s
 
 ## 0.9.73
 
-Metadaten erstellt: 2026-10-01T14:05:18.7573022+00:00 · [Manifest](../updates/stable/0.9.73/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.73)
+Metadaten erstellt: 2026-10-01T14:05:18.7573022+00:00 · [Manifest](../updates/stable/0.9.73/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.73)
 
 - Beydosh PIM 0.9.73 - Aufgeräumter Mailassistent und Ladeanzeige
 - Mailassistent: E-Mail-Vorschau links, Gespräch rechts und Übernehmen unten; Empfänger, CC, BCC, Betreff und Text bleiben vor der Übernahme sichtbar.
@@ -273,7 +273,7 @@ Metadaten erstellt: 2026-10-01T14:05:18.7573022+00:00 · [Manifest](../updates/s
 
 ## 0.9.72
 
-Metadaten erstellt: 2026-09-30T22:58:30.6362682+00:00 · [Manifest](../updates/stable/0.9.72/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.72)
+Metadaten erstellt: 2026-09-30T22:58:30.6362682+00:00 · [Manifest](../updates/stable/0.9.72/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.72)
 
 - Beydosh PIM 0.9.72 - Assistenten und flüssigeres Arbeiten
 - Produktassistent: Produkttexte, Übersetzungen und Variantengruppen als geprüfte Vorschläge; importgepflegte Inhalte bleiben geschützt.
@@ -292,7 +292,7 @@ Metadaten erstellt: 2026-09-30T22:58:30.6362682+00:00 · [Manifest](../updates/s
 
 ## 0.9.71
 
-Metadaten erstellt: 2026-09-30T19:42:18.2112792+00:00 · [Manifest](../updates/stable/0.9.71/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.71)
+Metadaten erstellt: 2026-09-30T19:42:18.2112792+00:00 · [Manifest](../updates/stable/0.9.71/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.71)
 
 - Beydosh PIM 0.9.71 – Produkttyp aus der Importtabelle
 - Verbindungsvorlagen bieten jetzt das Standardfeld Produkttyp.
@@ -307,7 +307,7 @@ Metadaten erstellt: 2026-09-30T19:42:18.2112792+00:00 · [Manifest](../updates/s
 
 ## 0.9.70
 
-Metadaten erstellt: 2026-09-30T17:44:09.9589106+00:00 · [Manifest](../updates/stable/0.9.70/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.70)
+Metadaten erstellt: 2026-09-30T17:44:09.9589106+00:00 · [Manifest](../updates/stable/0.9.70/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.70)
 
 - Beydosh PIM 0.9.70 Beta – kompakte eBay-Anbindung und Marktzuordnung.
 - Der Markt für die Preisberechnung ist direkt bei der Konto-Anbindung auswählbar.
@@ -322,7 +322,7 @@ Metadaten erstellt: 2026-09-30T17:44:09.9589106+00:00 · [Manifest](../updates/s
 
 ## 0.9.69
 
-Metadaten erstellt: 2026-09-30T14:42:01.4526646+00:00 · [Manifest](../updates/stable/0.9.69/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.69)
+Metadaten erstellt: 2026-09-30T14:42:01.4526646+00:00 · [Manifest](../updates/stable/0.9.69/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.69)
 
 - Beydosh PIM 0.9.69 (Beta): Modulare eBay-Einrichtung und produktbezogene Verkaufsauftraege.
 - Gefuehrte eBay-Einrichtung mit getrennten Sandbox- und Echtbetrieb-Anmeldungen, geschuetzter Speicherung und automatischer Erneuerung der Zugangsberechtigung.
@@ -337,7 +337,7 @@ Metadaten erstellt: 2026-09-30T14:42:01.4526646+00:00 · [Manifest](../updates/s
 
 ## 0.9.68
 
-Metadaten erstellt: 2026-09-25T16:51:25.5378384+00:00 · [Manifest](../updates/stable/0.9.68/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.68)
+Metadaten erstellt: 2026-09-25T16:51:25.5378384+00:00 · [Manifest](../updates/stable/0.9.68/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.68)
 
 - Beydosh PIM 0.9.68 (Beta): E-Mail-Ansicht, gemeinsame Entwuerfe und stabile dunkle Listen.
 - Korrigiert: Ordner- und Nachrichtenlisten werden beim Wechseln, Laden oder Speichern nicht mehr durch die Windows-Standarddarstellung weiss.
@@ -352,7 +352,7 @@ Metadaten erstellt: 2026-09-25T16:51:25.5378384+00:00 · [Manifest](../updates/s
 
 ## 0.9.67
 
-Metadaten erstellt: 2026-09-25T16:00:10.1627657+00:00 · [Manifest](../updates/stable/0.9.67/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.67)
+Metadaten erstellt: 2026-09-25T16:00:10.1627657+00:00 · [Manifest](../updates/stable/0.9.67/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.67)
 
 - Beydosh PIM 0.9.67 (Beta): aufgeraeumter E-Mail-Bereich und stiller Nachrichtenabruf.
 - Ordnerleiste, Nachrichtenliste mit einzelnen Karten und grosser Lesebereich. Gelesene und ungelesene Nachrichten sind klar unterscheidbar.
@@ -367,7 +367,7 @@ Metadaten erstellt: 2026-09-25T16:00:10.1627657+00:00 · [Manifest](../updates/s
 
 ## 0.9.66
 
-Metadaten erstellt: 2026-09-25T15:16:10.2572606+00:00 · [Manifest](../updates/stable/0.9.66/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.66)
+Metadaten erstellt: 2026-09-25T15:16:10.2572606+00:00 · [Manifest](../updates/stable/0.9.66/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.66)
 
 - Beydosh PIM 0.9.66 (Beta): erweiterter E-Mail-Bereich.
 - Antworten, Allen antworten, Weiterleiten, An/Cc/Bcc, Anhaenge, Ordner, Suche, Markierungen, Archiv und Papierkorb.
@@ -382,7 +382,7 @@ Metadaten erstellt: 2026-09-25T15:16:10.2572606+00:00 · [Manifest](../updates/s
 
 ## 0.9.65
 
-Metadaten erstellt: 2026-09-25T14:04:58.4346763+00:00 · [Manifest](../updates/stable/0.9.65/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.65)
+Metadaten erstellt: 2026-09-25T14:04:58.4346763+00:00 · [Manifest](../updates/stable/0.9.65/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.65)
 
 - Beydosh PIM 0.9.65 (Beta): aufgeräumte Postfachverwaltung und Kopfzeile.
 - E-Mail-Einstellungen zeigen zunächst nur Postfach hinzufügen; eingerichtete Postfächer erscheinen links als Liste.
@@ -394,7 +394,7 @@ Metadaten erstellt: 2026-09-25T14:04:58.4346763+00:00 · [Manifest](../updates/s
 
 ## 0.9.64
 
-Metadaten erstellt: 2026-09-25T13:35:42.1042946+00:00 · [Manifest](../updates/stable/0.9.64/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.64)
+Metadaten erstellt: 2026-09-25T13:35:42.1042946+00:00 · [Manifest](../updates/stable/0.9.64/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.64)
 
 - Gemeinsames Fundament: wiederverwendbare Symbole, Schliessen-Buttons, Eingabefelder und Aktionsbuttons fuer mehrere Programmteile zusammengefuehrt.
 - E-Mail ohne eingerichtetes Postfach zeigt nur den mittigen Button E-Mail Dienst verbinden und Schliessen. Der Button fuehrt direkt zur Einrichtung.
@@ -407,7 +407,7 @@ Metadaten erstellt: 2026-09-25T13:35:42.1042946+00:00 · [Manifest](../updates/s
 
 ## 0.9.63
 
-Metadaten erstellt: 2026-09-25T12:38:47.7506103+00:00 · [Manifest](../updates/stable/0.9.63/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.63)
+Metadaten erstellt: 2026-09-25T12:38:47.7506103+00:00 · [Manifest](../updates/stable/0.9.63/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.63)
 
 - Beydosh PIM: sichtbarer Programmname und neu gegliederte Einstellungen fuer Shopinformationen, Anzeige, Sprache, Daten & Betrieb, E-Mail sowie KI & Automatisierung.
 - E-Mail-Testfunktion fuer vorhandene IMAP-/SMTP-Postfaecher: Konto und Signatur einrichten, Verbindung pruefen, Posteingang manuell abrufen, Klartext lesen und eine Nachricht ausdruecklich senden.
@@ -417,7 +417,7 @@ Metadaten erstellt: 2026-09-25T12:38:47.7506103+00:00 · [Manifest](../updates/s
 
 ## 0.9.62
 
-Metadaten erstellt: 2026-09-25T09:59:04.7304039+00:00 · [Manifest](../updates/stable/0.9.62/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.62)
+Metadaten erstellt: 2026-09-25T09:59:04.7304039+00:00 · [Manifest](../updates/stable/0.9.62/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.62)
 
 - Preisregeln lassen sich manuell und im Markt-KI-Assistenten vorhandenen Produkttypen zuordnen. Mehrere Typen pro Regel sind moeglich; Kategorien beeinflussen die Zuordnung nicht.
 - Im selben Verkaufskanal und Land koennen unterschiedliche Produkttypen unterschiedliche Preisregeln nutzen. Ueberschneidungen werden blockiert; fehlende Zuordnungen liefern keinen ungeprueften VK.
@@ -428,7 +428,7 @@ Metadaten erstellt: 2026-09-25T09:59:04.7304039+00:00 · [Manifest](../updates/s
 
 ## 0.9.61
 
-Metadaten erstellt: 2026-09-23T21:58:14.9664081+00:00 · [Manifest](../updates/stable/0.9.61/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.61)
+Metadaten erstellt: 2026-09-23T21:58:14.9664081+00:00 · [Manifest](../updates/stable/0.9.61/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.61)
 
 - Netto-/Brutto-Schalter: Die sichtbare Markierung folgt jetzt korrekt der Auswahl. Eine alte Brutto-Animation konnte bisher die Netto-Position verdecken, obwohl der interne Wert bereits gewechselt hatte.
 - Die Animation wird beim Verlassen des jeweiligen Zustands entfernt. Ein Regressionstest prueft ausdruecklich die sichtbare Netto-Position nach dem Klick; beide Richtungen wurden zusaetzlich mit echten Mausklicks in einer isolierten Testoberflaeche geprueft.
@@ -437,7 +437,7 @@ Metadaten erstellt: 2026-09-23T21:58:14.9664081+00:00 · [Manifest](../updates/s
 
 ## 0.9.60
 
-Metadaten erstellt: 2026-09-23T21:41:24.1935249+00:00 · [Manifest](../updates/stable/0.9.60/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.60)
+Metadaten erstellt: 2026-09-23T21:41:24.1935249+00:00 · [Manifest](../updates/stable/0.9.60/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.60)
 
 - Der visuelle Kalkulationsablauf bleibt beim Bearbeiten sichtbar und aktualisiert sich unmittelbar mit den Einstellungen. Unvollstaendige Eingaben zeigen einen Hinweis; ein alter VK wird als neu zu berechnen markiert.
 - Der Netto-/Brutto-Schalter reagiert auf einen Klick auf seine gesamte Flaeche. Die Einstellung bleibt wie bisher der urspruenglichen Importvorlage zugeordnet.
@@ -448,7 +448,7 @@ Metadaten erstellt: 2026-09-23T21:41:24.1935249+00:00 · [Manifest](../updates/s
 
 ## 0.9.59
 
-Metadaten erstellt: 2026-09-23T21:23:38.8117832+00:00 · [Manifest](../updates/stable/0.9.59/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.59)
+Metadaten erstellt: 2026-09-23T21:23:38.8117832+00:00 · [Manifest](../updates/stable/0.9.59/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.59)
 
 - Einkaufspreis-Karten in Verbindungsvorlagen haben einen Netto-/Brutto-Schalter. Standard ist Brutto; bitte entsprechend der Importquelle einstellen.
 - Nach dem Speichern gilt die Einstellung auch fuer bereits importierte Produkte, ohne Neuimport oder Aenderung der gespeicherten EK-Betraege und Anhaenge.
@@ -460,7 +460,7 @@ Metadaten erstellt: 2026-09-23T21:23:38.8117832+00:00 · [Manifest](../updates/s
 
 ## 0.9.58
 
-[Manifest](../updates/stable/0.9.58/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.58)
+[Manifest](../updates/stable/0.9.58/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.58)
 
 - Ausdrückliche EK-Steuerbasis; unbekannte Netto-/Brutto-Grundlage sperrt die Kalkulation statt einen ungesicherten VK auszugeben.
 - Frei konfigurierbare Gewinnstaffeln und progressive Gebührenstaffeln, sichtbar im Regelentwurf/Rechenweg und vom Markt-KI-Assistenten vorschlagbar.
@@ -472,7 +472,7 @@ Metadaten erstellt: 2026-09-23T21:23:38.8117832+00:00 · [Manifest](../updates/s
 
 ## 0.9.57
 
-[Manifest](../updates/stable/0.9.57/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.57)
+[Manifest](../updates/stable/0.9.57/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.57)
 
 - Preisregel-Bearbeitung im selben Verkaufskanal-Fenster, mit Rückkehr zur erhaltenen Karte.
 - Kalkulationsablauf über volle Fensterbreite, automatischer Zeilenumbruch mit Verbindungspfeilen.
@@ -482,7 +482,7 @@ Metadaten erstellt: 2026-09-23T21:23:38.8117832+00:00 · [Manifest](../updates/s
 
 ## 0.9.56
 
-Metadaten erstellt: 2026-09-23T19:00:05.3491027+00:00 · [Manifest](../updates/stable/0.9.56/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.56)
+Metadaten erstellt: 2026-09-23T19:00:05.3491027+00:00 · [Manifest](../updates/stable/0.9.56/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.56)
 
 - Beydosh 0.9.56 – Visuelle Kalkulationsreihe
 - Bei Auswahl eines Verkaufskanals erscheinen seine Preisregeln als waagerechte Rechenreihe von EK bis VK brutto.
@@ -496,7 +496,7 @@ Metadaten erstellt: 2026-09-23T19:00:05.3491027+00:00 · [Manifest](../updates/s
 
 ## 0.9.55
 
-Metadaten erstellt: 2026-09-23T18:43:29.8767223+00:00 · [Manifest](../updates/stable/0.9.55/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.55)
+Metadaten erstellt: 2026-09-23T18:43:29.8767223+00:00 · [Manifest](../updates/stable/0.9.55/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.55)
 
 - Beydosh 0.9.55
 - Große Produktlöschungen laufen im Hintergrund mit Ladeanzeige, Schutz gegen Doppelklicks und vorheriger Sicherung.
@@ -509,7 +509,7 @@ Metadaten erstellt: 2026-09-23T18:43:29.8767223+00:00 · [Manifest](../updates/s
 
 ## 0.9.54
 
-Metadaten erstellt: 2026-09-21T22:32:03.076Z · [Manifest](../updates/stable/0.9.54/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.54)
+Metadaten erstellt: 2026-09-21T22:32:03.076Z · [Manifest](../updates/stable/0.9.54/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.54)
 
 - Beydosh 0.9.54 – Importauswahl wiederherstellen
 - Beim Öffnen von Daten bearbeiten werden eindeutig zuordenbare, bereits importierte Produkte wieder ausgewählt.
@@ -520,7 +520,7 @@ Metadaten erstellt: 2026-09-21T22:32:03.076Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.53
 
-Metadaten erstellt: 2026-09-21T22:13:33.874Z · [Manifest](../updates/stable/0.9.53/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.53)
+Metadaten erstellt: 2026-09-21T22:13:33.874Z · [Manifest](../updates/stable/0.9.53/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.53)
 
 - Beydosh 0.9.53 – EK-Währung im Import
 - Neben dem Zahlenformat kann die Einkaufspreis-Währung der Quelldaten gewählt werden. Alternativ bleibt eine zugeordnete Währungsspalte möglich.
@@ -534,7 +534,7 @@ Metadaten erstellt: 2026-09-21T22:13:33.874Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.52
 
-Metadaten erstellt: 2026-09-21T21:51:32.779Z · [Manifest](../updates/stable/0.9.52/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.52)
+Metadaten erstellt: 2026-09-21T21:51:32.779Z · [Manifest](../updates/stable/0.9.52/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.52)
 
 - Beydosh 0.9.52 – Verkaufskanäle und Länderpreise
 - Ein Verkaufskanal kann unterschiedliche Preisregeln für mehrere Länder enthalten.
@@ -548,7 +548,7 @@ Metadaten erstellt: 2026-09-21T21:51:32.779Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.51
 
-Metadaten erstellt: 2026-09-21T20:59:32.097Z · [Manifest](../updates/stable/0.9.51/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.51)
+Metadaten erstellt: 2026-09-21T20:59:32.097Z · [Manifest](../updates/stable/0.9.51/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.51)
 
 - Beydosh 0.9.51 – KI-Recherche und Kalkulationshilfe
 - Märkte- und Versandassistent recherchieren und erklären selbstständig statt pauschaler Rückfragenlisten. Berechtigte Rückfragen und die strikte Bereichstrennung bleiben bestehen.
@@ -562,7 +562,7 @@ Metadaten erstellt: 2026-09-21T20:59:32.097Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.50
 
-Metadaten erstellt: 2026-09-21T20:27:28.819Z · [Manifest](../updates/stable/0.9.50/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.50)
+Metadaten erstellt: 2026-09-21T20:27:28.819Z · [Manifest](../updates/stable/0.9.50/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.50)
 
 - Beydosh 0.9.50 – Gemeinsamer KI-Assistent
 - - Neuer Reiter Rückfragen bei Kategorien, Märkten und Versand. Offene Fragen öffnen den Reiter automatisch und bleiben im gespeicherten Gespräch erhalten.
@@ -574,7 +574,7 @@ Metadaten erstellt: 2026-09-21T20:27:28.819Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.49
 
-Metadaten erstellt: 2026-09-21T19:53:54.169Z · [Manifest](../updates/stable/0.9.49/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.49)
+Metadaten erstellt: 2026-09-21T19:53:54.169Z · [Manifest](../updates/stable/0.9.49/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.49)
 
 - Beydosh 0.9.49 – Einheitliches KI-Grundlayout
 - Kategorien, Märkte und Versand verwenden eine gemeinsame Layout-Komponente: Entwurf links, Gespräch rechts, einheitliche Überschriften, Spaltentrenner und abgerundeter Eingabebereich.
@@ -585,7 +585,7 @@ Metadaten erstellt: 2026-09-21T19:53:54.169Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.48
 
-Metadaten erstellt: 2026-09-21T19:32:56.149Z · [Manifest](../updates/stable/0.9.48/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.48)
+Metadaten erstellt: 2026-09-21T19:32:56.149Z · [Manifest](../updates/stable/0.9.48/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.48)
 
 - Beydosh 0.9.48 – KI-Assistenten für Märkte und Versand
 - Entwurf links, Gespräch rechts. Sofort sichtbare Nachrichten, animierte Aktivität und Stopp auch bei ausbleibender Antwort.
@@ -598,7 +598,7 @@ Metadaten erstellt: 2026-09-21T19:32:56.149Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.47
 
-Metadaten erstellt: 2026-09-21T18:57:52.403Z · [Manifest](../updates/stable/0.9.47/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.47)
+Metadaten erstellt: 2026-09-21T18:57:52.403Z · [Manifest](../updates/stable/0.9.47/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.47)
 
 - Beydosh 0.9.47 – Einheitliche KI-Assistenten und sichere Kartenspeicherung
 - Preise & Märkte und Versand: Gespräch links, aktueller Stand und vorgeschlagene Änderungen rechts. Übersichtliche Regel-/Tarifkarten, aufklappbare Feldänderungen und Entwurf verwerfen.
@@ -610,7 +610,7 @@ Metadaten erstellt: 2026-09-21T18:57:52.403Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.46
 
-Metadaten erstellt: 2026-09-21T18:12:47.977Z · [Manifest](../updates/stable/0.9.46/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.46)
+Metadaten erstellt: 2026-09-21T18:12:47.977Z · [Manifest](../updates/stable/0.9.46/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.46)
 
 - Beydosh 0.9.46 – Universelle KI-Konfiguration und Bedienung
 - Preise & Märkte und Versand: beliebige Karten mit der zentralen KI anlegen oder bearbeiten. Rückfragen, Änderungsübersicht und ausdrückliche Datenfreigabe; keine automatische Speicherung. Neue oder geänderte Regeln bleiben pausiert und werden im normalen Editor geprüft.
@@ -624,7 +624,7 @@ Metadaten erstellt: 2026-09-21T18:12:47.977Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.45
 
-Metadaten erstellt: 2026-09-20T21:06:53.999Z · [Manifest](../updates/stable/0.9.45/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.45)
+Metadaten erstellt: 2026-09-20T21:06:53.999Z · [Manifest](../updates/stable/0.9.45/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.45)
 
 - Beydosh 0.9.45 – Visuelle Feinarbeit
 - Kompakte, flache dunkelblaue Titelleiste mit schlichten Fensterknöpfen und rotem Schließen-Hover.
@@ -639,7 +639,7 @@ Metadaten erstellt: 2026-09-20T21:06:53.999Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.44
 
-Metadaten erstellt: 2026-09-20T20:41:15.868Z · [Manifest](../updates/stable/0.9.44/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.44)
+Metadaten erstellt: 2026-09-20T20:41:15.868Z · [Manifest](../updates/stable/0.9.44/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.44)
 
 - Beydosh 0.9.44 – Register und visuelle Feinarbeit
 - Reiter stehen im gesamten Programm nebeneinander wie Aktenregister und schließen direkt an ihren Inhaltsbereich an. Schmale Fenster bieten horizontales Scrollen.
@@ -652,7 +652,7 @@ Metadaten erstellt: 2026-09-20T20:41:15.868Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.43
 
-Metadaten erstellt: 2026-09-20T20:02:41.729Z · [Manifest](../updates/stable/0.9.43/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.43)
+Metadaten erstellt: 2026-09-20T20:02:41.729Z · [Manifest](../updates/stable/0.9.43/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.43)
 
 - Beydosh 0.9.43 – Neue blaue Oberfläche
 - Weich angehobene blaue Bereiche mit abgerundeten Kanten, dezenten Verläufen und klarer visueller Hierarchie.
@@ -664,7 +664,7 @@ Metadaten erstellt: 2026-09-20T20:02:41.729Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.42
 
-Metadaten erstellt: 2026-09-20T18:46:48.511Z · [Manifest](../updates/stable/0.9.42/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.42)
+Metadaten erstellt: 2026-09-20T18:46:48.511Z · [Manifest](../updates/stable/0.9.42/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.42)
 
 - Beydosh 0.9.42 – Preise, Märkte und Versand
 - Eigene Verkaufskanal- und Versandkarten mit frei wählbaren Namen. Länder und wiederverwendbare Ländergruppen lassen sich gemeinsam einrichten. Die Länderübersicht zeigt vorhandene Preisregeln und Versandzuordnungen.
@@ -676,7 +676,7 @@ Metadaten erstellt: 2026-09-20T18:46:48.511Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.41
 
-Metadaten erstellt: 2026-09-19T23:25:31.038Z · [Manifest](../updates/stable/0.9.41/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.41)
+Metadaten erstellt: 2026-09-19T23:25:31.038Z · [Manifest](../updates/stable/0.9.41/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.41)
 
 - Beydosh 0.9.41
 - Preise & Märkte ist in vier übersichtliche Bereiche gegliedert: Markt und Währung, Preisregel und Rundung, Kosten und Zielwerte sowie Berechnungsvorschau. Der Bereich lässt sich als eigenes Fenster öffnen.
@@ -688,7 +688,7 @@ Metadaten erstellt: 2026-09-19T23:25:31.038Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.40
 
-Metadaten erstellt: 2026-09-19T22:32:03.693Z · [Manifest](../updates/stable/0.9.40/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.40)
+Metadaten erstellt: 2026-09-19T22:32:03.693Z · [Manifest](../updates/stable/0.9.40/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.40)
 
 - Beydosh 0.9.40
 - Neuer Menüpunkt Preise & Märkte als ausdrücklich gekennzeichnete Berechnungsvorschau. Plattform-/Ländermärkte können mit getrennten Regeln, Gebühren, Zielwährung und Mindestmarge angelegt werden. Einstellungen bleiben nur in der laufenden Sitzung; keine dauerhafte Speicherung oder Änderung echter Produktpreise.
@@ -701,7 +701,7 @@ Metadaten erstellt: 2026-09-19T22:32:03.693Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.39
 
-Metadaten erstellt: 2026-09-19T21:49:42.574Z · [Manifest](../updates/stable/0.9.39/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.39)
+Metadaten erstellt: 2026-09-19T21:49:42.574Z · [Manifest](../updates/stable/0.9.39/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.39)
 
 - Beydosh 0.9.39
 - Freie Bild- und Downloadplätze lassen sich direkt anklicken. Im Dialog kann eine lokale Datei oder ein externer HTTPS-Link gewählt werden. Die allgemeinen Hinzufügen-Buttons unter den Tabellen entfallen. Freie Plätze werden der Reihe nach gefüllt.
@@ -713,7 +713,7 @@ Metadaten erstellt: 2026-09-19T21:49:42.574Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.38
 
-Metadaten erstellt: 2026-09-19T20:56:26.880Z · [Manifest](../updates/stable/0.9.38/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.38)
+Metadaten erstellt: 2026-09-19T20:56:26.880Z · [Manifest](../updates/stable/0.9.38/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.38)
 
 - Beydosh 0.9.38
 - Produktbilder und Downloads werden in zwei Tabellen mit je sechs Plätzen angezeigt. Die erste Bildzeile ist als Anzeigebild hervorgehoben und entspricht der Reihenfolge in Vorschau und Export.
@@ -724,7 +724,7 @@ Metadaten erstellt: 2026-09-19T20:56:26.880Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.37
 
-Metadaten erstellt: 2026-09-19T20:27:20.273Z · [Manifest](../updates/stable/0.9.37/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.37)
+Metadaten erstellt: 2026-09-19T20:27:20.273Z · [Manifest](../updates/stable/0.9.37/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.37)
 
 - Beydosh 0.9.37
 - Pro Produkt können bis zu sechs Bilder und sechs Downloads als direkte öffentliche HTTPS-Links hinterlegt werden. Lokale Uploads bleiben im verwalteten Beydosh-Assetordner; bestehende Dateien werden nicht automatisch gelöscht.
@@ -737,7 +737,7 @@ Metadaten erstellt: 2026-09-19T20:27:20.273Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.36
 
-Metadaten erstellt: 2026-09-19T19:54:07.153Z · [Manifest](../updates/stable/0.9.36/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.36)
+Metadaten erstellt: 2026-09-19T19:54:07.153Z · [Manifest](../updates/stable/0.9.36/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.36)
 
 - Beydosh 0.9.36
 - Das Speichern einer Verbindungsvorlage wird nicht mehr durch unabhängige Produktänderungen oder Hintergrundsynchronisation blockiert. Gleichzeitige Änderungen derselben Vorlage bleiben geschützt.
@@ -747,7 +747,7 @@ Metadaten erstellt: 2026-09-19T19:54:07.153Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.35
 
-Metadaten erstellt: 2026-09-19T19:10:11.996Z · [Manifest](../updates/stable/0.9.35/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.35)
+Metadaten erstellt: 2026-09-19T19:10:11.996Z · [Manifest](../updates/stable/0.9.35/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.35)
 
 - Beydosh 0.9.35
 - Leere EANs und beschreibende Importfelder blockieren den Import nicht mehr. Eine eindeutige Produktkennung bleibt erforderlich; widersprüchliche Kennungen werden weiterhin abgewiesen.
@@ -758,7 +758,7 @@ Metadaten erstellt: 2026-09-19T19:10:11.996Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.34
 
-Metadaten erstellt: 2026-09-19T18:47:01.835Z · [Manifest](../updates/stable/0.9.34/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.34)
+Metadaten erstellt: 2026-09-19T18:47:01.835Z · [Manifest](../updates/stable/0.9.34/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.34)
 
 - Beydosh 0.9.34
 - Attributwerte bestehender Produkte werden auch aus inzwischen abgewählten Importzeilen übernommen. Die Zuordnung erfolgt über eindeutige Lieferanten-Produktkennungen; widersprüchliche oder mehrdeutige Quellen bleiben gesperrt.
@@ -769,7 +769,7 @@ Metadaten erstellt: 2026-09-19T18:47:01.835Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.33
 
-Metadaten erstellt: 2026-09-19T18:18:16.990Z · [Manifest](../updates/stable/0.9.33/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.33)
+Metadaten erstellt: 2026-09-19T18:18:16.990Z · [Manifest](../updates/stable/0.9.33/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.33)
 
 - Beydosh 0.9.33
 - Verbindungs- und Attributvorlagen werden beim Anwendungsstart vorbereitet und anschließend wiederverwendet.
@@ -782,7 +782,7 @@ Metadaten erstellt: 2026-09-19T18:18:16.990Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.32
 
-Metadaten erstellt: 2026-09-19T17:49:33.284Z · [Manifest](../updates/stable/0.9.32/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.32)
+Metadaten erstellt: 2026-09-19T17:49:33.284Z · [Manifest](../updates/stable/0.9.32/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.32)
 
 - Beydosh 0.9.32
 - Fehlercodes und eindeutige Vorgangs-IDs erleichtern die Zuordnung von Screenshots zum lokalen Fehlerprotokoll.
@@ -796,7 +796,7 @@ Metadaten erstellt: 2026-09-19T17:49:33.284Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.31
 
-Metadaten erstellt: 2026-09-19T16:12:40.933Z · [Manifest](../updates/stable/0.9.31/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.31)
+Metadaten erstellt: 2026-09-19T16:12:40.933Z · [Manifest](../updates/stable/0.9.31/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.31)
 
 - Beydosh 0.9.31
 - - Spaltenfilter im Import und Bulk-Editor: vorhandene Werte anklicken, Mehrfachauswahl, Suche und leere Werte.
@@ -810,7 +810,7 @@ Metadaten erstellt: 2026-09-19T16:12:40.933Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.30
 
-Metadaten erstellt: 2026-09-19T15:28:13.884Z · [Manifest](../updates/stable/0.9.30/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.30)
+Metadaten erstellt: 2026-09-19T15:28:13.884Z · [Manifest](../updates/stable/0.9.30/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.30)
 
 - Beydosh 0.9.30
 - Spaltenfilter im Importfenster: Dropdown-Pfeile oeffnen Filter fuer Text, exakte Werte und leere oder gefuellte Zellen. Mehrere Filter werden gemeinsam angewendet.
@@ -825,7 +825,7 @@ Metadaten erstellt: 2026-09-19T15:28:13.884Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.29
 
-Metadaten erstellt: 2026-09-13T19:36:23.537Z · [Manifest](../updates/stable/0.9.29/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.29)
+Metadaten erstellt: 2026-09-13T19:36:23.537Z · [Manifest](../updates/stable/0.9.29/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.29)
 
 - Beydosh 0.9.29
 - Produktangaben werden nach kurzer Eingabepause automatisch im Hintergrund gespeichert. Der manuelle Produkt-speichern-Button entfällt. Fehler werden angezeigt, Eingaben bleiben erhalten.
@@ -836,7 +836,7 @@ Metadaten erstellt: 2026-09-13T19:36:23.537Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.28
 
-Metadaten erstellt: 2026-09-13T18:59:24.926Z · [Manifest](../updates/stable/0.9.28/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.28)
+Metadaten erstellt: 2026-09-13T18:59:24.926Z · [Manifest](../updates/stable/0.9.28/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.28)
 
 - Beydosh 0.9.28
 - Leere Attributwerte werden leer importiert und blockieren die Aktualisierung nicht. Fehlende Pflichtattribute bleiben als Qualitaetshinweis sichtbar. Identitaets-, Preis- und Bestandspruefungen bleiben bestehen.
@@ -848,7 +848,7 @@ Metadaten erstellt: 2026-09-13T18:59:24.926Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.27
 
-Metadaten erstellt: 2026-09-13T17:18:57.053Z · [Manifest](../updates/stable/0.9.27/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.27)
+Metadaten erstellt: 2026-09-13T17:18:57.053Z · [Manifest](../updates/stable/0.9.27/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.27)
 
 - Beydosh 0.9.27
 - Produkte direkt ueber Auswahlkaestchen links markieren. Alle auswaehlen und alle abwaehlen gelten fuer die sichtbare Produktliste.
@@ -858,7 +858,7 @@ Metadaten erstellt: 2026-09-13T17:18:57.053Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.26
 
-Metadaten erstellt: 2026-09-13T16:52:01.526Z · [Manifest](../updates/stable/0.9.26/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.26)
+Metadaten erstellt: 2026-09-13T16:52:01.526Z · [Manifest](../updates/stable/0.9.26/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.26)
 
 - Beydosh 0.9.26
 - Produktseite mit fester Vorschau links, klaren Bereichen und kompakten Eingabefeldern rechts.
@@ -869,7 +869,7 @@ Metadaten erstellt: 2026-09-13T16:52:01.526Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.25
 
-Metadaten erstellt: 2026-09-13T15:46:59.218Z · [Manifest](../updates/stable/0.9.25/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.25)
+Metadaten erstellt: 2026-09-13T15:46:59.218Z · [Manifest](../updates/stable/0.9.25/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.25)
 
 - Alle Felder in Verbindungsvorlagen haben dieselbe doppelte Hoehe fuer ein gleichmaessiges Sortierraster.
 - Bereits zugeordnete Attribute werden in der Auswahl gruen markiert. Die aktuelle Auswahl wird gesondert gekennzeichnet.
@@ -878,7 +878,7 @@ Metadaten erstellt: 2026-09-13T15:46:59.218Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.24
 
-Metadaten erstellt: 2026-09-13T15:06:43.120Z · [Manifest](../updates/stable/0.9.24/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.24)
+Metadaten erstellt: 2026-09-13T15:06:43.120Z · [Manifest](../updates/stable/0.9.24/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.24)
 
 - Attributauswahl nach aufklappbaren Vorlagen: Suche nach Attribut- und Vorlagennamen. Zugeordnete Felder zeigen den Namen der uebergeordneten Vorlage.
 - Nur Attribute aus Vorlagen stehen zur Auswahl. Unbenutzte Altdefinitionen werden beim Oeffnen der Verbindungsvorlagen mit Wiederherstellungsnachweis bereinigt. Bestehende Produktwerte und verwendete Zuordnungen bleiben erhalten.
@@ -890,7 +890,7 @@ Metadaten erstellt: 2026-09-13T15:06:43.120Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.23
 
-Metadaten erstellt: 2026-09-13T11:29:41.971Z · [Manifest](../updates/stable/0.9.23/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.23)
+Metadaten erstellt: 2026-09-13T11:29:41.971Z · [Manifest](../updates/stable/0.9.23/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.23)
 
 - Beydosh 0.9.23
 - Attribute sind pro Attributvorlage eindeutig. Reifen und Felgen koennen gleichnamige Attribute mit unabhaengigen Datentypen, Einheiten und Auswahlwerten besitzen.
@@ -902,7 +902,7 @@ Metadaten erstellt: 2026-09-13T11:29:41.971Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.22
 
-Metadaten erstellt: 2026-09-13T00:13:43.582Z · [Manifest](../updates/stable/0.9.22/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.22)
+Metadaten erstellt: 2026-09-13T00:13:43.582Z · [Manifest](../updates/stable/0.9.22/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.22)
 
 - Verbindungsvorlagen: neuer einheitlicher Name, eigenes ausklappbares Fenster und 50/50-Aufteilung zwischen Vorlagenliste und Bearbeitung.
 - Attributvorlagen speichern gueltige Aenderungen automatisch nach kurzer Eingabepause. Der manuelle Speichern-Button entfaellt. Ungueltige Eingaben bleiben sichtbar und ueberschreiben keine gespeicherten Daten.
@@ -914,7 +914,7 @@ Metadaten erstellt: 2026-09-13T00:13:43.582Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.21
 
-Metadaten erstellt: 2026-09-12T23:40:16.966Z · [Manifest](../updates/stable/0.9.21/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.21)
+Metadaten erstellt: 2026-09-12T23:40:16.966Z · [Manifest](../updates/stable/0.9.21/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.21)
 
 - Attributvorlagen stehen als eigenstaendiger Menuepunkt unter Kategoriemodelle und koennen in einem eigenen Fenster geoeffnet werden.
 - Vorlagenliste und Vorlageneditor nutzen je eine Haelfte der Attributvorlagen-Seite. Dunkle Zeilen und vertikal zentrierte Texte verbessern die Lesbarkeit.
@@ -925,7 +925,7 @@ Metadaten erstellt: 2026-09-12T23:40:16.966Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.20
 
-Metadaten erstellt: 2026-09-12T22:33:40.303Z · [Manifest](../updates/stable/0.9.20/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.20)
+Metadaten erstellt: 2026-09-12T22:33:40.303Z · [Manifest](../updates/stable/0.9.20/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.20)
 
 - Attributvorlagen stehen unter Kategoriemodelle zur Verfügung. Vorlagen enthalten Datentypen, Einheiten, Auswahlwerte, Pflichtfelder und Bearbeitungsregeln.
 - Der Attributvorlagen-Assistent verwendet die zentrale KI-Verbindung. Vorschläge werden erst nach Prüfung übernommen und separat gespeichert; tatsächliche Produkteigenschaften werden nicht erfunden.
@@ -938,7 +938,7 @@ Metadaten erstellt: 2026-09-12T22:33:40.303Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.19
 
-Metadaten erstellt: 2026-09-12T20:45:39.942Z · [Manifest](../updates/stable/0.9.19/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.19)
+Metadaten erstellt: 2026-09-12T20:45:39.942Z · [Manifest](../updates/stable/0.9.19/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.19)
 
 - Der Kategorie-Assistent zeigt nach jedem geprueften KI-Teilschritt den bisherigen Gesamtvorschlag direkt unter der laufenden Aktivitaetsanzeige.
 - Der Zwischenstand bleibt waehrend weiterer Teilanfragen sichtbar. Neue Kategorien bleiben gruen hervorgehoben.
@@ -948,7 +948,7 @@ Metadaten erstellt: 2026-09-12T20:45:39.942Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.18
 
-Metadaten erstellt: 2026-09-12T20:20:44.128Z · [Manifest](../updates/stable/0.9.18/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.18)
+Metadaten erstellt: 2026-09-12T20:20:44.128Z · [Manifest](../updates/stable/0.9.18/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.18)
 
 - Kategorie-Assistent: Antwortlokale Entwurfsschluessel werden bei weiteren Teilschritten eindeutig zugeordnet. Bestehende Kategorien und bisherige Teilvorschlaege bleiben erhalten.
 - Jeder KI-Teilschritt zeigt eine eigene aktualisierte Aktivitaet. Fehler und abgebrochene Fortsetzungen werden nicht mehr als erfolgreicher Abschluss angezeigt.
@@ -961,7 +961,7 @@ Metadaten erstellt: 2026-09-12T20:20:44.128Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.17
 
-Metadaten erstellt: 2026-09-12T19:18:14.233Z · [Manifest](../updates/stable/0.9.17/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.17)
+Metadaten erstellt: 2026-09-12T19:18:14.233Z · [Manifest](../updates/stable/0.9.17/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.17)
 
 - Grosse Kategorie-Auftraege werden in Teilanfragen automatisch fortgesetzt und zu einem ungespeicherten Vorschlag zusammengefuehrt. Jede Teilanfrage kann Kontingent oder Gebuehren verbrauchen.
 - Stopp rechts neben der Aktivitaetsanzeige beendet den laufenden Auftrag. Fertige Teilvorschlaege und offene Fortsetzung bleiben im Kategorie-Chat erhalten.
@@ -974,7 +974,7 @@ Metadaten erstellt: 2026-09-12T19:18:14.233Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.16
 
-Metadaten erstellt: 2026-09-12T18:00:47.458Z · [Manifest](../updates/stable/0.9.16/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.16)
+Metadaten erstellt: 2026-09-12T18:00:47.458Z · [Manifest](../updates/stable/0.9.16/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.16)
 
 - Ein KI-Chat pro Kategoriebaum: Auch Unterkategorien oeffnen den Chat des obersten Knotens. Die Bereichsauswahl im Assistenten entfaellt.
 - Neue Kategoriebaeume erscheinen sofort mit nummerierten Platzhalternamen und werden ausgewaehlt. Ohne Kategorieauswahl bleibt der KI-Assistent deaktiviert.
@@ -991,7 +991,7 @@ Metadaten erstellt: 2026-09-12T18:00:47.458Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.15
 
-Metadaten erstellt: 2026-09-12T16:38:48.219Z · [Manifest](../updates/stable/0.9.15/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.15)
+Metadaten erstellt: 2026-09-12T16:38:48.219Z · [Manifest](../updates/stable/0.9.15/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.15)
 
 - KI-Aktivität: Deutlich sichtbarer grüner Strich bewegt sich im Vorschlagsbereich hin und her.
 - KI-Zeitlimit: Global in Einstellungen konfigurierbar, 1 bis 120 Minuten; Standard 10 Minuten. Gilt ab der nächsten Inhaltsanfrage für API und Anmeldung.
@@ -1001,7 +1001,7 @@ Metadaten erstellt: 2026-09-12T16:38:48.219Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.14
 
-Metadaten erstellt: 2026-09-12T13:20:11.333Z · [Manifest](../updates/stable/0.9.14/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.14)
+Metadaten erstellt: 2026-09-12T13:20:11.333Z · [Manifest](../updates/stable/0.9.14/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.14)
 
 - Kategorie-Assistent: Beim Senden wird automatisch auf Vorgeschlagene Änderungen gewechselt. Eine Ladeanimation zeigt die laufende Anfrage; der alte Vorschlag wird ausgeblendet.
 - Vorschau: Reiner Kategoriebaum mit Auswahlhäkchen, ohne eingeblendete Quellenbelege, Hinweise oder Links. Quelldaten bleiben erhalten.
@@ -1011,7 +1011,7 @@ Metadaten erstellt: 2026-09-12T13:20:11.333Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.13
 
-Metadaten erstellt: 2026-09-12T11:46:53.312Z · [Manifest](../updates/stable/0.9.13/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.13)
+Metadaten erstellt: 2026-09-12T11:46:53.312Z · [Manifest](../updates/stable/0.9.13/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.13)
 
 - Kategorie-Assistent: Maximiertes Fenster mit Entwurf links und Chat rechts. Folgefragen können direkt beantwortet werden.
 - Recherche: Zuschaltbare Webrecherche für OpenAI-API und Codex-Anmeldung. Quellen und Unsicherheiten am Vorschlag; keine automatische Kompatibilitätsfreigabe.
@@ -1022,7 +1022,7 @@ Metadaten erstellt: 2026-09-12T11:46:53.312Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.12
 
-Metadaten erstellt: 2026-09-12T10:39:03.033Z · [Manifest](../updates/stable/0.9.12/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.12)
+Metadaten erstellt: 2026-09-12T10:39:03.033Z · [Manifest](../updates/stable/0.9.12/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.12)
 
 - Produkte: Eigene Produkte anlegen und mehrere Produkte mit Vorschau gemeinsam bearbeiten. Importgeschützte Felder bleiben gesperrt.
 - Varianten: Eigenständige Produkte verknüpfen; jede SKU, jeder Bestand und alle Importdaten bleiben getrennt.
@@ -1036,7 +1036,7 @@ Metadaten erstellt: 2026-09-12T10:39:03.033Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.11
 
-Metadaten erstellt: 2026-09-12T09:03:37.854Z · [Manifest](../updates/stable/0.9.11/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.11)
+Metadaten erstellt: 2026-09-12T09:03:37.854Z · [Manifest](../updates/stable/0.9.11/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.11)
 
 - KI-Verbindung: In den Einstellungen zwischen API ODER Chatbot wechseln; die aktive Verbindung wird hervorgehoben.
 - Chatbot: Codex mit ChatGPT-Anmeldung, eigener geschützter Anmeldung und Modellauswahl nutzen. Eine lokale Codex-Installation ist erforderlich.
@@ -1047,7 +1047,7 @@ Metadaten erstellt: 2026-09-12T09:03:37.854Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.10
 
-Metadaten erstellt: 2026-09-11T17:23:54.372Z · [Manifest](../updates/stable/0.9.10/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.10)
+Metadaten erstellt: 2026-09-11T17:23:54.372Z · [Manifest](../updates/stable/0.9.10/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.10)
 
 - Beydosh 0.9.10
 - KI-Assistent: Ungültige oder unvollständige Antworten sowie API-Fehler werden verständlich im Assistenten und als Benachrichtigung angezeigt. Kein irreführender Startabbruch bei diesen Fehlern.
@@ -1058,7 +1058,7 @@ Metadaten erstellt: 2026-09-11T17:23:54.372Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.9
 
-Metadaten erstellt: 2026-09-09T09:37:21.512Z · [Manifest](../updates/stable/0.9.9/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.9)
+Metadaten erstellt: 2026-09-09T09:37:21.512Z · [Manifest](../updates/stable/0.9.9/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.9)
 
 - Kategorien: KI-Assistent mit strukturierten JSON-Vorschlägen, Rückfragen und auswählbarer Vorschau. Bestehende Kategorien werden nicht automatisch verändert.
 - KI-Verbindung: zentraler API-Schlüssel und Modell in Einstellungen. Schlüssel bleiben im Windows-Anmeldeinformationsspeicher und werden nicht exportiert.
@@ -1071,7 +1071,7 @@ Metadaten erstellt: 2026-09-09T09:37:21.512Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.8
 
-Metadaten erstellt: 2026-09-08T22:48:04.906Z · [Manifest](../updates/stable/0.9.8/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.8)
+Metadaten erstellt: 2026-09-08T22:48:04.906Z · [Manifest](../updates/stable/0.9.8/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.8)
 
 - Produktübersicht mit bearbeitbarem Namen und Beschreibung, kopierbarer SKU, Bestand sowie Zurück und Produkt speichern. Ungespeicherte Änderungen werden beim Verlassen abgefragt.
 - Importvorlagen bestimmen die Feldsperren auch bei fehlenden Werten. Manuelle Ergänzungen bleiben erhalten; abweichende spätere Importwerte werden als Konflikt gemeldet und können ausdrücklich übernommen werden.
@@ -1086,7 +1086,7 @@ Metadaten erstellt: 2026-09-08T22:48:04.906Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.7
 
-Metadaten erstellt: 2026-09-08T21:25:39.163Z · [Manifest](../updates/stable/0.9.7/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.7)
+Metadaten erstellt: 2026-09-08T21:25:39.163Z · [Manifest](../updates/stable/0.9.7/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.7)
 
 - ID-Vergabe beim Auswählen, Speichern und Wiederöffnen von Importentwürfen korrigiert.
 - Importierte Produkte werden sofort in Produkte angezeigt, mit Lieferanten-Artikelnummer, EAN, Einkaufspreis und Bestand.
@@ -1101,7 +1101,7 @@ Metadaten erstellt: 2026-09-08T21:25:39.163Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.6
 
-Metadaten erstellt: 2026-09-08T20:20:15.776Z · [Manifest](../updates/stable/0.9.6/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.6)
+Metadaten erstellt: 2026-09-08T20:20:15.776Z · [Manifest](../updates/stable/0.9.6/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.6)
 
 - Vorlagen Schnittstelle: Benennbare Vorlagen mit vorkonfigurierten Feldern und eigenen Attributen erstellen und in einem separaten Fenster bearbeiten.
 - Verbindungen: Gemeinsame Lieferanten-ID vergeben und eine gespeicherte Importvorlage auswählen.
@@ -1114,7 +1114,7 @@ Metadaten erstellt: 2026-09-08T20:20:15.776Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.5
 
-Metadaten erstellt: 2026-09-08T18:43:03.950Z · [Manifest](../updates/stable/0.9.5/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.5)
+Metadaten erstellt: 2026-09-08T18:43:03.950Z · [Manifest](../updates/stable/0.9.5/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.5)
 
 - CSV-Import: Anführungszeichen innerhalb unquotierter Felder werden als Originaltext erhalten und verhindern das Laden des Importentwurfs nicht mehr.
 - CSV-Feldgrenzen, korrekt quotierte Inhalte und die Prüfung beschädigter Datensätze bleiben erhalten.
@@ -1122,7 +1122,7 @@ Metadaten erstellt: 2026-09-08T18:43:03.950Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.4
 
-Metadaten erstellt: 2026-09-08T17:53:34.186Z · [Manifest](../updates/stable/0.9.4/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.4)
+Metadaten erstellt: 2026-09-08T17:53:34.186Z · [Manifest](../updates/stable/0.9.4/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.4)
 
 - - Große Kataloge werden beim Laden abschnittsweise verarbeitet; Download-Fortschritt und Abbrechen sind verfügbar.
 - - Importfehler werden im Importbereich angezeigt, statt einen allgemeinen Startabbruch auszulösen.
@@ -1135,7 +1135,7 @@ Metadaten erstellt: 2026-09-08T17:53:34.186Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.3
 
-Metadaten erstellt: 2026-09-08T16:06:43.311Z · [Manifest](../updates/stable/0.9.3/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.3)
+Metadaten erstellt: 2026-09-08T16:06:43.311Z · [Manifest](../updates/stable/0.9.3/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.3)
 
 - Importentwürfe zeigen eine bearbeitbare Tabelle mit Auswahlkästchen, Originalwerten und vorhandenen Produktdaten. Alle Zeilen sind zunächst abgewählt.
 - Nur ausgewählte und manuell geprüfte Produkte werden nach ausdrücklicher Bestätigung importiert. Änderungen verwerfen eine bestehende Prüfung.
@@ -1148,7 +1148,7 @@ Metadaten erstellt: 2026-09-08T16:06:43.311Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.2
 
-Metadaten erstellt: 2026-09-08T14:08:47.366Z · [Manifest](../updates/stable/0.9.2/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.2)
+Metadaten erstellt: 2026-09-08T14:08:47.366Z · [Manifest](../updates/stable/0.9.2/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.2)
 
 - Die Anwendung zeigt beim Start immer zuerst das Dashboard.
 - Download-Links bleiben bei der Eingabe sichtbar und werden nach dem Speichern bis auf die ersten zehn Zeichen verdeckt. Klartext anzeigen blendet den gespeicherten Link ein.
@@ -1157,7 +1157,7 @@ Metadaten erstellt: 2026-09-08T14:08:47.366Z · [Manifest](../updates/stable/0.9
 
 ## 0.9.1
 
-Metadaten erstellt: 2026-09-08T13:41:39.813Z · [Manifest](../updates/stable/0.9.1/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.1)
+Metadaten erstellt: 2026-09-08T13:41:39.813Z · [Manifest](../updates/stable/0.9.1/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.1)
 
 - Ein noch nicht veröffentlichter Updatekanal wird verständlich angezeigt. Sicherheitsfehler bleiben weiterhin Fehler.
 - Import- und Export-Verbindungen werden direkt als gespeicherte, ausgewählte Zeile angelegt und unter „Ausgewählte Verbindung“ bearbeitet.
