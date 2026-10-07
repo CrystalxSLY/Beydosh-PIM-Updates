@@ -22,7 +22,7 @@ Der Index bindet die Manifestbytes per SHA-256. Das Manifest bindet Paket-URLs, 
 - Manifest-SHA-256: `7AF601014AEA4C6D58E630A929429AE8906330E44C5A32B5FC462A7E6D722C1B`
 - Transportpaket: 26.780.059 Bytes
 - Transport-SHA-256: `1E015C378C2F4DBCEEE78FD87DFC47F9CD3FCD2DC2D7FB619DC60339A2A71C46`
-- Aktivierung: [7ab6fa5](https://github.com/CrystalxSLY/beydosh-updates/commit/7ab6fa5347c60975e807e10cea7f4f4941819317)
+- Aktivierung: [7ab6fa5](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/commit/7ab6fa5347c60975e807e10cea7f4f4941819317)
 - [Signiertes Manifest](0.9.97/manifest.beydosh.json)
 - [Veröffentlichungsnachweis und Testgrenzen](../../docs/releases/0.9.97-publication.md)
 
@@ -30,6 +30,6 @@ Diese Angaben sind ein Schnappschuss; der vom Launcher verifizierte Live-Index b
 
 ## Name und Übergang
 
-Der gewünschte Repositoryname lautet `Beydosh-PIM-Updates`. Die technische Adresse bleibt bis zum geprüften Übergangsupdate `CrystalxSLY/beydosh-updates`, damit bestehende Installationen nicht durch die Umbenennung ihren Updatezugang verlieren. Historische signierte URLs und Releasebytes werden nicht nachträglich ersetzt.
+Das Repository wurde am 07.10.2026 in `CrystalxSLY/Beydosh-PIM-Updates` umbenannt. App, Launcher und Updatewerkzeug der Nutzerinstallation stehen geprüft auf 0.9.97. Downloads über die bisherige und neue Adresse sowie ein historisches Paket bestanden mit dem installierten Verifier. [Abschlussnachweis](../../docs/releases/2026-10-07-update-channel-rename.md).
 
-Das Übergangsupdate 0.9.97 ist veröffentlicht und aktiviert. Die reale Nutzerinstallation und die anschließende Repositoryumbenennung sind getrennte, noch offene Schritte. [Übergangsnachweis](../../docs/releases/0.9.97-publication.md).
+Der ausgelieferte Übergangs-Updater verwendet noch die alte Adresse als kompatiblen Alias. Historische signierte URLs und Releasebytes bleiben unverändert. Den früheren Namen nicht für ein neues Repository verwenden. Ältere Installationen ohne Übergang sind nicht pauschal bestätigt.
