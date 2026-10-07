@@ -87,7 +87,7 @@ Die bestätigten Ziele `auth2.ebay.com` und `auth2.ebay.de` sind seit 0.9.94/0.9
 
 ## Repositoryname und Updatezugang
 
-0.9.96 enthält die begrenzten Übergangspfade zum geplanten Namen Beydosh-PIM-Updates. 0.9.97 ergänzt die nötige Wartungsanforderung, da eine aktuelle App neben einem älteren Launcher installiert sein kann. Regulär auf 0.9.97 aktualisieren und den Wartungsschritt durchlaufen lassen. Die technische Adresse bleibt bis zur bestätigten Installation einschließlich Launcher und Wartungskomponenten unverändert. Ältere Updater können Metadatenweiterleitungen ablehnen. Weder Signaturprüfung abschalten noch historische signierte URLs umschreiben.
+0.9.96 enthält die begrenzten Übergangspfade zum Namen Beydosh-PIM-Updates. 0.9.97 ergänzt die nötige Wartungsanforderung, da eine aktuelle App neben einem älteren Launcher installiert sein kann. Regulär auf 0.9.97 aktualisieren und den Wartungsschritt durchlaufen lassen. Das Repository wurde am 07.10.2026 nach bestätigter Installation und erfolgreicher Abrufprüfung umbenannt. Die geprüfte 0.9.97-Installation erreicht beide Adressen. Ältere Updater können Metadatenweiterleitungen ablehnen. Weder Signaturprüfung abschalten noch historische signierte URLs umschreiben.
 
 ## Aussagegrenzen
 
