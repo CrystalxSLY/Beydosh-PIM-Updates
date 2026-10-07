@@ -14,7 +14,7 @@ Alte Programmversionen nicht ungeprüft über neuere Daten installieren. Eine vo
 
 ### Übergangsupdate 0.9.97
 
-0.9.96 bereitet die erlaubten Kanalpfade vor; 0.9.97 fordert zusätzlich den dafür nötigen Launcher und das Updatewerkzeug an. Zielname ist Beydosh-PIM-Updates. Das Repository bleibt vorerst unter der bisherigen Adresse erreichbar. Das Update regulär installieren und neu starten; die Anwendung kann dabei ihren mitgelieferten Wartungshelfer zur Aktualisierung des Launchers verwenden. Eine Versionsanzeige allein bestätigt noch nicht den Stand aller Wartungskomponenten. Keine alten Setup-Dateien darüberkopieren und keine Vertrauensprüfungen abschalten.
+0.9.96 bereitet die erlaubten Kanalpfade vor; 0.9.97 fordert zusätzlich den dafür nötigen Launcher und das Updatewerkzeug an. Das Repository heißt seit 07.10.2026 Beydosh-PIM-Updates. Der geprüfte Übergangs-Updater erreicht den Kanal auch über den bisherigen Namen. Das Update regulär installieren und neu starten; die Anwendung kann dabei ihren mitgelieferten Wartungshelfer zur Aktualisierung des Launchers verwenden. Eine Versionsanzeige allein bestätigt noch nicht den Stand aller Wartungskomponenten. Keine alten Setup-Dateien darüberkopieren und keine Vertrauensprüfungen abschalten.
 
 ## 2. Shopwährung und Einkaufspreise
 
