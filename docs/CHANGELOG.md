@@ -2,9 +2,19 @@
 
 [Übersicht](../README.md) · [Bedienung](USER_GUIDE.md)
 
-Stand: 07.10.2026, aktiver Owner-Development-Release 0.9.96. Die historischen Einträge 0.9.1–0.9.58 bleiben erhalten; die Ergänzungen bis 0.9.96 geben die PatchNotes der öffentlich vorhandenen Versionsmanifeste wieder. Für 0.9.76 wurde kein veröffentlichtes Versionsmanifest gefunden; dafür wird kein Release behauptet. Die Einträge sind keine unabhängige QA- oder Live-Freigabe.
+Stand: 07.10.2026, aktiver Owner-Development-Release 0.9.97. Die historischen Einträge 0.9.1–0.9.58 bleiben erhalten; die Ergänzungen bis 0.9.97 geben die PatchNotes der öffentlich vorhandenen Versionsmanifeste wieder. Für 0.9.76 wurde kein veröffentlichtes Versionsmanifest gefunden; dafür wird kein Release behauptet. Die Einträge sind keine unabhängige QA- oder Live-Freigabe.
 
 Zeitangaben sind die UTC-Erstellungszeit signierter Metadaten, nicht zwingend die GitHub-Veröffentlichungszeit. Maßgeblich bleibt der signierte Kanalindex; spätere Versionen können frühere Abläufe ersetzen.
+
+## 0.9.97
+
+Metadaten erstellt: 2026-10-07T08:23:36.7299785+00:00 · [Manifest](../updates/stable/0.9.97/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.97)
+
+- Ergänzung zum Repository-Übergang: Die Anwendung fordert jetzt den kompatiblen Launcher und das Updatewerkzeug 0.9.97 an, statt die ältere Branding-Mindestversion genügen zu lassen.
+- Der vorhandene signierte Wartungshelfer und die bestätigte Prozessübergabe bleiben der einzige Aktualisierungspfad. Keine manuelle Ersetzung von Programmdateien.
+- Bereits aktuelle oder neuere Launcher werden nicht erneut aktualisiert oder zurückgestuft. Unbekannte Versionen und ältere App-Pakete bleiben durch die bisherigen Prüfungen geschützt.
+- Die exakten Repositorypfade, Signaturen, Hashes und historischen Paket-URLs aus 0.9.96 bleiben erhalten. Das Repository wird erst nach bestätigtem Wartungsabschluss umbenannt.
+- Keine unveröffentlichten eBay- oder Cloudflare-Funktionen und keine Live-Verkaufsfreigabe enthalten.
 
 ## 0.9.96
 
