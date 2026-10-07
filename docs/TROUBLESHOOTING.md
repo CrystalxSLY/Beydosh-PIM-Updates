@@ -2,7 +2,7 @@
 
 [Übersicht](../README.md) · [Bedienung](USER_GUIDE.md)
 
-Stand: 0.9.56. Bei Problemen zuerst installierte Version, betroffenen Bereich und genaue Statusmeldung festhalten. Screenshots vor dem Teilen auf Zugangsdaten und persönliche Daten prüfen.
+Stand: 0.9.96, 07.10.2026. Bei Problemen zuerst installierte Version, betroffenen Bereich und genaue Statusmeldung festhalten. Screenshots vor dem Teilen auf Zugangsdaten und persönliche Daten prüfen.
 
 ## Markt aktiv, aber kein Verkaufspreis
 
@@ -64,6 +64,30 @@ Ein fortgeschriebener Arbeitsauftrag speichert noch keine Markt-/Versandregel. E
 - GitHub-Release sichtbar, aber noch nicht angeboten: Nur der gültige signierte Kanalindex aktiviert eine Version.
 
 Keine Pakete, Vertrauensdateien oder Installationsreceipts manuell ersetzen. Die Wiederherstellung eines fehlgeschlagenen Starts und ein fernpublizierter Versionsrücksprung sind unterschiedliche Vorgänge. Archivierte Versionen sind kein freigegebener Downgradeweg.
+
+## Arbeitsspeicher und Ladehänger
+
+0.9.92 begrenzt das Laden und Speichern von Markt- und Versandkonfigurationen auf die benötigten Grundlagen. 0.9.93 ergänzt gezieltes Lesen, Hintergrundfilterung, bedarfsweises Laden einzelner E-Mail-Entwürfe und Speicherfreigabe nach Aufgaben. Diese Änderungen sind keine Garantie, dass jede Nutzerdatenmenge oder beschädigte Datei verarbeitet werden kann.
+
+Bei wiederholter Meldung „Nicht genügend Arbeitsspeicher“ zuerst auf den angebotenen aktuellen Stand aktualisieren. Bereich, Aktion, Datenumfang und genaue Meldung festhalten. Benutzerdaten nicht löschen und Grenzprüfungen nicht pauschal abschalten. Die physische RAM-Größe allein erklärt nicht die tatsächlich ausgelöste Grenze.
+
+## Kontakte werden nicht übernommen
+
+Der Auftrag „Füll meine Kontakte aus meinen E-Mails“ kann seit 0.9.90 den abschnittsweisen Kontaktimport starten. Postfach und Lesefreigabe prüfen. Der Assistent muss Fehler mit konkreten Prüfangaben korrigieren können; gültige Kontaktbeobachtungen sollen nicht durch einen unabhängigen Entwurfsfehler verloren gehen. Gespeicherte Kontakte stehen in der Tabelle Kontakte unter Spam.
+
+Fortsetzen nutzt den verschlüsselten lokalen Arbeitsstand. Ein erfolgreich beendeter Abschnitt bedeutet nicht zwingend, dass das gesamte Postfach vollständig ausgewertet wurde. Absender-Signaturen dürfen nicht fremden Empfängern zugeschrieben werden. Konflikte und fehlende belegte Angaben prüfen, statt Daten zu erfinden.
+
+## eBay-Anmeldung scheitert
+
+`unauthorized_client` mit „OAuth-Client wurde nicht gefunden“: zuerst die richtige Umgebung und deren App ID, Cert ID und Redirect URL Name prüfen. Sandbox-Daten sind keine Production-Daten. Keine Secrets in Screenshots oder Supportnachrichten senden.
+
+„Keyset disabled“ beziehungsweise „Non Compliant“ im eBay-Portal ist eine getrennte Freigabeanforderung. Ein bloß angelegter Cloudflare-Worker oder ein Challenge-Response reicht nicht als Nachweis vollständiger Löschbenachrichtigungsverarbeitung. Keine Ausnahme behaupten, wenn sie fachlich nicht zutrifft.
+
+Die bestätigten Ziele `auth2.ebay.com` und `auth2.ebay.de` sind seit 0.9.94/0.9.95 im Echtbetrieb erlaubt. Andere Weiterleitungsziele nicht pauschal freischalten. `temporarily_unavailable` meldet eine aktuell nicht verarbeitete Autorisierung; erneut starten und bei Wiederholung Umgebung und Portalstatus prüfen. Kein Nachweis erfolgreicher Anmeldung oder Veröffentlichung.
+
+## Repositoryname und Updatezugang
+
+0.9.96 enthält den begrenzten Übergang zum geplanten Namen Beydosh-PIM-Updates. Die technische Adresse bleibt bis zur bestätigten Installation einschließlich Launcher und Wartungskomponenten unverändert. Ältere Updater können Metadatenweiterleitungen ablehnen. Weder Signaturprüfung abschalten noch historische signierte URLs umschreiben.
 
 ## Aussagegrenzen
 
