@@ -48,7 +48,7 @@ Optionale signierte PatchNotes: höchstens 100 Klartextzeilen mit jeweils höchs
 1. Autorisierung, Quellcommit, Version, Tests, Build und lokale Signier-/Stagingnachweise festhalten.
 2. Versions-/Tag-/Assetkollisionen ausschließen. Keine bereits veröffentlichten Bytes ersetzen.
 3. Chunks unter Release-Tag `v<version>` hochladen. Im autorisierten Owner-Development-Pfad als Prerelease veröffentlichen; ein privater Draft-Link ist kein öffentlicher Verfügbarkeitsnachweis.
-4. Pakete über ihre endgültigen URLs unter `https://github.com/CrystalxSLY/beydosh-updates/releases/download/v<version>/` herunterladen und Länge/Hashes gegen die signierten lokalen Bytes prüfen.
+4. Pakete über ihre endgültigen URLs unter `https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/download/v<version>/` herunterladen und Länge/Hashes gegen die signierten lokalen Bytes prüfen.
 5. Das signierte Manifest unter `updates/stable/<version>/manifest.beydosh.json` committen; exakt veröffentlichte Bytes erneut herunterladen und prüfen.
 6. Signierten Index gegen Manifest und aktuellen erwarteten Vorgänger prüfen. `updates/stable/latest.beydosh.json` **zuletzt** aktualisieren. Bei parallel geändertem Vorgänger stoppen und neu prüfen, nicht überschreiben.
 7. Öffentlichen Index über den unveränderlichen Aktivierungscommit herunterladen und Byte-/Signaturbindung prüfen. Manifest-/Aktivierungscommits, Assetstatus und Hashes dokumentieren.
@@ -66,8 +66,10 @@ Die Trust-Bezeichnung `Production` wählt einen kryptografischen Verifier, keine
 
 Nur Markdown ändern, relative Links und Versionsangaben prüfen und die Unverändertheit aller übrigen Dateien nachweisen. Keine Versionsanhebung, Neuunterzeichnung, Tags, Release-Assets oder Latest-Änderung allein für Dokumentation. Historische Berichte behalten ihren zeitlichen Geltungsbereich.
 
-## Sichere Umbenennung des Repositorys
+## Abgeschlossene Repositoryumbenennung
 
-Zielname: `Beydosh-PIM-Updates`. Vor der Umbenennung ein Übergangsupdate im bisherigen Kanal veröffentlichen und den Abruf mit installierter App sowie Launcher und Wartungskomponenten prüfen. Ältere Implementierungen verwenden den bisherigen Namen fest und lehnen Metadatenweiterleitungen ab. 0.9.96 akzeptiert ausschließlich eine Metadatenweiterleitung vom bisherigen zum exakten neuen Namen unter CrystalxSLY sowie unveränderte Versions- und Chunkpfade. Die primäre Adresse bleibt im Übergangsupdate der bisherige Name. 0.9.97 fordert den kompatiblen Launcher und das Updatewerkzeug über die vorhandene signierte Wartungsübergabe an; die App-Versionsanzeige allein genügt nicht. GitHub-Weiterleitungen allein sind deshalb kein Kompatibilitätsnachweis.
+Seit 07.10.2026 lautet das Veröffentlichungsziel `CrystalxSLY/Beydosh-PIM-Updates`. App, Launcher und Updatewerkzeug der Nutzerinstallation wurden auf 0.9.97 und die tatsächlichen signierten Downloads vor und nach der Umbenennung geprüft. [Abschlussnachweis](releases/2026-10-07-update-channel-rename.md).
 
-Bereits veröffentlichte signierte Manifeste und Pakete bleiben unverändert. Alte und neue erlaubte Pfade müssen eng begrenzt und getestet sein; keine allgemeine Freigabe fremder Ziele. Erst nach dem erfolgreichen Übergang Repositoryname, aktive Konfiguration, Operatorwerkzeuge und aktuelle Dokumentationslinks gemeinsam umstellen. Ohne diesen Nachweis bleibt die bisherige technische Adresse erhalten.
+Der ausgelieferte Übergangs-Updater verwendet noch den bisherigen Namen als Alias. Seine gemeinsame URL-Prüfung erlaubt ausschließlich den exakten Namenswechsel unter CrystalxSLY, unveränderte Versions-/Chunkpfade und die bereits begrenzten GitHub-Asset-CDNs. Eine spätere primäre Konfigurationsumstellung muss historische signierte URLs weiterhin akzeptieren und erneut getestet werden. Keine allgemeinen Fremdziel-Freigaben.
+
+Neue Veröffentlichungen und Operatorzugriffe verwenden den neuen Repositorynamen. Bereits veröffentlichte signierte Manifeste und Pakete bleiben bytegenau erhalten; alte Asset-URLs in deren signiertem Inhalt werden nicht ersetzt. Den bisherigen Repositorynamen nicht erneut vergeben, damit die Weiterleitungen erhalten bleiben. Der Installationsnachweis gilt für die geprüfte 0.9.97-Installation, nicht für jeden älteren Updater.
