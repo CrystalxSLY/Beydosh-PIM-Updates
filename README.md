@@ -4,29 +4,29 @@
 
 ## Aktueller Stand
 
-Dokumentationsstand: **7. Oktober 2026**. Im signierten Kanal ist **0.9.96** aktiviert. Die GitHub-Veröffentlichung ist ein **Owner-Development-Prerelease**, keine Freigabe für Live-Verkauf oder eine fertig abgenommene öffentliche Produktversion. Der Verzeichnisname `stable` ändert diese Einordnung nicht.
+Dokumentationsstand: **7. Oktober 2026**. Im signierten Kanal ist **0.9.97** aktiviert. Die GitHub-Veröffentlichung ist ein **Owner-Development-Prerelease**, keine Freigabe für Live-Verkauf oder eine fertig abgenommene öffentliche Produktversion. Der Verzeichnisname `stable` ändert diese Einordnung nicht.
 
-Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updates/stable/latest.beydosh.json), nicht diese Versionsangabe. [Release 0.9.96](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.96) enthält das Update-Paket.
+Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updates/stable/latest.beydosh.json), nicht diese Versionsangabe. [Release 0.9.97](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.97) enthält das Update-Paket.
 
 ## Dokumentation
 
 - [Bedienung: Update, Import, Währungen, Märkte, Versand und KI](docs/USER_GUIDE.md)
 - [Fehlerhilfe und bekannte Grenzen](docs/TROUBLESHOOTING.md)
-- [Versionsarchiv bis 0.9.96](docs/CHANGELOG.md)
+- [Versionsarchiv bis 0.9.97](docs/CHANGELOG.md)
 - [Veröffentlichung und kryptografischer Update-Vertrag](docs/PUBLISHING.md)
 - [Kanalstruktur](updates/stable/README.md)
-- [Nachweise und Grenzen der Veröffentlichung 0.9.96](docs/releases/0.9.96-publication.md)
+- [Nachweise und Grenzen der Veröffentlichung 0.9.97](docs/releases/0.9.97-publication.md)
 - [Historischer Owner-Test 0.9.1](docs/releases/0.9.1-owner-test.md)
 
-## Neu in 0.9.96
+## Neu in 0.9.97
 
-Dieses Übergangsupdate bereitet den Wechsel von `beydosh-updates` zu `Beydosh-PIM-Updates` vor. App, Launcher und Wartungskomponenten verwenden dieselbe eng begrenzte URL-Prüfung. Nur der exakte Namenswechsel beim Eigentümer CrystalxSLY ist erlaubt; Signaturen, Hashes, Versionen und Replay-Schutz bleiben unverändert. Historische signierte Paketadressen werden nicht umgeschrieben.
+Dieses Übergangsupdate enthält die URL-Prüfung aus 0.9.96 und fordert zusätzlich den passenden Launcher und das Updatewerkzeug über den vorhandenen signierten Wartungsweg an. Es bereitet den Wechsel von `beydosh-updates` zu `Beydosh-PIM-Updates` vor. App, Launcher und Wartungskomponenten verwenden dieselbe eng begrenzte URL-Prüfung. Nur der exakte Namenswechsel beim Eigentümer CrystalxSLY ist erlaubt; Signaturen, Hashes, Versionen und Replay-Schutz bleiben unverändert. Historische signierte Paketadressen werden nicht umgeschrieben.
 
-Die deutsche eBay-Anmeldeweiterleitung aus 0.9.95 bleibt enthalten. Der zentrale Cloudflare-Anmeldedienst und die noch unveröffentlichten PIM-Änderungen gehören nicht zum Release 0.9.96.
+Die deutsche eBay-Anmeldeweiterleitung aus 0.9.95 bleibt enthalten. Der zentrale Cloudflare-Anmeldedienst und die noch unveröffentlichten PIM-Änderungen gehören nicht zum Release 0.9.97.
 
 ## Geplanter Repositoryname
 
-Der gewünschte Name ist **Beydosh-PIM-Updates**. Die technische Repositoryadresse bleibt bis zur kompatiblen Umstellung `CrystalxSLY/beydosh-updates`. Version 0.9.96 enthält den geprüften Übergang. Vor der Umbenennung muss die bestehende Nutzerinstallation einschließlich Launcher und Wartungskomponenten auf diesen Stand gebracht und der tatsächliche Abruf geprüft werden. Ältere Updater erlauben die Metadatenweiterleitung nicht. Der Repositoryname wurde deshalb noch nicht geändert.
+Der gewünschte Name ist **Beydosh-PIM-Updates**. Die technische Repositoryadresse bleibt bis zur kompatiblen Umstellung `CrystalxSLY/beydosh-updates`. Version 0.9.97 enthält den geprüften Übergang einschließlich Wartungsanforderung. Bei der Kontrolle nach 0.9.96 war die App bereits aktuell, der installierte Launcher aber noch auf 0.9.77. Vor der Umbenennung muss die bestehende Nutzerinstallation einschließlich Launcher und Wartungskomponenten auf diesen Stand gebracht und der tatsächliche Abruf geprüft werden. Ältere Updater erlauben die Metadatenweiterleitung nicht. Der Repositoryname wurde deshalb noch nicht geändert.
 
 ## Update installieren
 
