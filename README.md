@@ -4,29 +4,29 @@
 
 ## Aktueller Stand
 
-Dokumentationsstand: **6. Oktober 2026**. Im signierten Kanal ist **0.9.95** aktiviert. Die GitHub-Veröffentlichung ist ein **Owner-Development-Prerelease**, keine Freigabe für Live-Verkauf oder eine fertig abgenommene öffentliche Produktversion. Der Verzeichnisname `stable` ändert diese Einordnung nicht.
+Dokumentationsstand: **7. Oktober 2026**. Im signierten Kanal ist **0.9.96** aktiviert. Die GitHub-Veröffentlichung ist ein **Owner-Development-Prerelease**, keine Freigabe für Live-Verkauf oder eine fertig abgenommene öffentliche Produktversion. Der Verzeichnisname `stable` ändert diese Einordnung nicht.
 
-Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updates/stable/latest.beydosh.json), nicht diese Versionsangabe. [Release 0.9.95](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.95) enthält das Update-Paket.
+Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updates/stable/latest.beydosh.json), nicht diese Versionsangabe. [Release 0.9.96](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.96) enthält das Update-Paket.
 
 ## Dokumentation
 
 - [Bedienung: Update, Import, Währungen, Märkte, Versand und KI](docs/USER_GUIDE.md)
 - [Fehlerhilfe und bekannte Grenzen](docs/TROUBLESHOOTING.md)
-- [Versionsarchiv 0.9.1–0.9.58](docs/CHANGELOG.md)
+- [Versionsarchiv bis 0.9.96](docs/CHANGELOG.md)
 - [Veröffentlichung und kryptografischer Update-Vertrag](docs/PUBLISHING.md)
 - [Kanalstruktur](updates/stable/README.md)
-- [Nachweise und Grenzen der Veröffentlichung 0.9.95](docs/releases/0.9.95-publication.md)
+- [Nachweise und Grenzen der Veröffentlichung 0.9.96](docs/releases/0.9.96-publication.md)
 - [Historischer Owner-Test 0.9.1](docs/releases/0.9.1-owner-test.md)
 
-## Neu in 0.9.95
+## Neu in 0.9.96
 
-Die eBay-Anmeldung lässt die deutsche Weiterleitung von `auth2.ebay.com` zu `auth2.ebay.de` zu. HTTPS, Standardport, getrennte Sandbox-Ziele und die sichere OAuth-Rückgabe bleiben begrenzt. Passende Production-Zugangsdaten, eine erfolgreiche Kontoanmeldung sowie die weiteren Verkaufsfreigaben bleiben erforderlich. Dieses Update bestätigt kein online veröffentlichtes Angebot.
+Dieses Übergangsupdate bereitet den Wechsel von `beydosh-updates` zu `Beydosh-PIM-Updates` vor. App, Launcher und Wartungskomponenten verwenden dieselbe eng begrenzte URL-Prüfung. Nur der exakte Namenswechsel beim Eigentümer CrystalxSLY ist erlaubt; Signaturen, Hashes, Versionen und Replay-Schutz bleiben unverändert. Historische signierte Paketadressen werden nicht umgeschrieben.
 
-Der zentrale Cloudflare-Anmeldedienst und die dazugehörigen noch unveröffentlichten PIM-Änderungen gehören nicht zum Release 0.9.95.
+Die deutsche eBay-Anmeldeweiterleitung aus 0.9.95 bleibt enthalten. Der zentrale Cloudflare-Anmeldedienst und die noch unveröffentlichten PIM-Änderungen gehören nicht zum Release 0.9.96.
 
 ## Geplanter Repositoryname
 
-Der gewünschte Name ist **Beydosh-PIM-Updates**. Die technische Repositoryadresse bleibt bis zur kompatiblen Umstellung `CrystalxSLY/beydosh-updates`. Bestehende Updater verwenden diese Adresse fest und lehnen Metadatenweiterleitungen ab. Zuerst müssen ein geprüftes Übergangsupdate und die Kompatibilität vorhandener signierter Manifeste sichergestellt werden; erst danach wird das Repository umbenannt.
+Der gewünschte Name ist **Beydosh-PIM-Updates**. Die technische Repositoryadresse bleibt bis zur kompatiblen Umstellung `CrystalxSLY/beydosh-updates`. Version 0.9.96 enthält den geprüften Übergang. Vor der Umbenennung muss die bestehende Nutzerinstallation einschließlich Launcher und Wartungskomponenten auf diesen Stand gebracht und der tatsächliche Abruf geprüft werden. Ältere Updater erlauben die Metadatenweiterleitung nicht. Der Repositoryname wurde deshalb noch nicht geändert.
 
 ## Update installieren
 
