@@ -2,7 +2,7 @@
 
 [Übersicht](../README.md) · [Bedienung](USER_GUIDE.md)
 
-Stand: 0.9.96, 07.10.2026. Bei Problemen zuerst installierte Version, betroffenen Bereich und genaue Statusmeldung festhalten. Screenshots vor dem Teilen auf Zugangsdaten und persönliche Daten prüfen.
+Stand: 0.9.97, 07.10.2026. Bei Problemen zuerst installierte Version, betroffenen Bereich und genaue Statusmeldung festhalten. Screenshots vor dem Teilen auf Zugangsdaten und persönliche Daten prüfen.
 
 ## Markt aktiv, aber kein Verkaufspreis
 
@@ -87,7 +87,7 @@ Die bestätigten Ziele `auth2.ebay.com` und `auth2.ebay.de` sind seit 0.9.94/0.9
 
 ## Repositoryname und Updatezugang
 
-0.9.96 enthält den begrenzten Übergang zum geplanten Namen Beydosh-PIM-Updates. Die technische Adresse bleibt bis zur bestätigten Installation einschließlich Launcher und Wartungskomponenten unverändert. Ältere Updater können Metadatenweiterleitungen ablehnen. Weder Signaturprüfung abschalten noch historische signierte URLs umschreiben.
+0.9.96 enthält die begrenzten Übergangspfade zum geplanten Namen Beydosh-PIM-Updates. 0.9.97 ergänzt die nötige Wartungsanforderung, da eine aktuelle App neben einem älteren Launcher installiert sein kann. Regulär auf 0.9.97 aktualisieren und den Wartungsschritt durchlaufen lassen. Die technische Adresse bleibt bis zur bestätigten Installation einschließlich Launcher und Wartungskomponenten unverändert. Ältere Updater können Metadatenweiterleitungen ablehnen. Weder Signaturprüfung abschalten noch historische signierte URLs umschreiben.
 
 ## Aussagegrenzen
 
