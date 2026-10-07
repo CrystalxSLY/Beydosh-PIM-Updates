@@ -2,9 +2,451 @@
 
 [Übersicht](../README.md) · [Bedienung](USER_GUIDE.md)
 
-Stand: 23.09.2026. Vollständige Liste der 58 vorhandenen Versionsmanifeste (0.9.1–0.9.58). Die folgenden Änderungsangaben werden aus deren `PatchNotes` wiedergegeben. Sie beschreiben den jeweiligen Entwicklungsstand, keine unabhängige QA- oder Live-Freigabe. Spätere Versionen können frühere Abläufe ersetzen; für die aktuelle Bedienung gilt die Anleitung.
+Stand: 07.10.2026, aktiver Owner-Development-Release 0.9.96. Die historischen Einträge 0.9.1–0.9.58 bleiben erhalten; die Ergänzungen bis 0.9.96 geben die PatchNotes der öffentlich vorhandenen Versionsmanifeste wieder. Für 0.9.76 wurde kein veröffentlichtes Versionsmanifest gefunden; dafür wird kein Release behauptet. Die Einträge sind keine unabhängige QA- oder Live-Freigabe.
 
-Zeitangaben unten sind die UTC-Erstellungszeit der signierten Metadaten, nicht zwingend die GitHub-Veröffentlichungszeit. Maßgeblich für die aktivierte Version ist der signierte Kanalindex.
+Zeitangaben sind die UTC-Erstellungszeit signierter Metadaten, nicht zwingend die GitHub-Veröffentlichungszeit. Maßgeblich bleibt der signierte Kanalindex; spätere Versionen können frühere Abläufe ersetzen.
+
+## 0.9.96
+
+Metadaten erstellt: 2026-10-07T08:12:46.3753143+00:00 · [Manifest](../updates/stable/0.9.96/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.96)
+
+- Übergangsupdate für den geplanten GitHub-Kanalnamen Beydosh-PIM-Updates.
+- Der gemeinsame Updater erlaubt ausschließlich den exakten Namenswechsel unter demselben GitHub-Eigentümer. Signaturen, Hashes, Versionsbindung, Größenlimits und Replay-Schutz bleiben bestehen.
+- Historische signierte Paket-URLs bleiben gültig. Fremde Ziele, geänderte Versions- oder Paketpfade und Weiterleitungsschleifen bleiben gesperrt.
+- Das Repository bleibt bis zur bestätigten Installation des Übergangsupdates unter der bisherigen technischen Adresse erreichbar.
+- Keine unveröffentlichten eBay- oder Cloudflare-Funktionen und keine Live-Verkaufsfreigabe enthalten.
+
+## 0.9.95
+
+Metadaten erstellt: 2026-10-05T14:21:51.1718461+00:00 · [Manifest](../updates/stable/0.9.95/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.95)
+
+- eBay-Anmeldung im Echtbetrieb: Die deutsche Weiterleitung von auth2.ebay.com zu auth2.ebay.de wird nun ebenfalls zugelassen.
+- Die erlaubten Ziele bleiben exakt begrenzt. HTTPS, Standardport, Sandbox-Trennung und sichere OAuth-Rückgabe bleiben geschützt.
+- Gezielte eBay-Anmelde- und Sicherheitstests erfolgreich. Für den Echtbetrieb sind weiterhin Production-Zugangsdaten und die eigene eBay-Anmeldung erforderlich.
+
+## 0.9.94
+
+Metadaten erstellt: 2026-10-05T14:01:12.8353688+00:00 · [Manifest](../updates/stable/0.9.94/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.94)
+
+- eBay-Echtbetrieb: Die bestätigte Weiterleitung auf auth2.ebay.com wird im Anmeldefenster zugelassen. HTTPS-, Host-, Sandbox- und Rückgabeschutz bleiben erhalten.
+- Änderungen bestehender Marktregeln durch die KI behalten den bisherigen Aktivierungszustand. Neue Regeln bleiben zunächst pausiert.
+- Märkte und Preisregeln im Produkt werden als klar getrennte, dunkle Karten mit verständlichen Auswahlzuständen dargestellt.
+- 137 Desktop-Selbsttests und zusätzliche eBay-Anmeldetests erfolgreich. Keine automatische Live-Verkaufsfreigabe; Production-Zugangsdaten bleiben erforderlich.
+
+## 0.9.93
+
+Metadaten erstellt: 2026-10-04T20:02:12.1564666+00:00 · [Manifest](../updates/stable/0.9.93/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.93)
+
+- Speicherfreigabe nach Hintergrundaufgaben und sichere Bereinigung temporärer Dateien verbessert.
+- Produkt- und Attributassistenten lesen gezielt benötigte Daten, statt den gesamten Produktbestand zu laden.
+- Große Produktlisten werden im Hintergrund gefiltert; veraltete Suchergebnisse werden verworfen.
+- E-Mail-Entwurfslisten laden keine vollständigen Anhänge und Chats mehr. Einzelne Entwürfe werden bei Bedarf geladen.
+- Entwurfssynchronisierung blockiert die Bedienung nicht mehr; parallele Speicheraktionen bleiben geschützt.
+- Ungültige gespeicherte Daten werden kontrolliert abgefangen. Wiederherstellung von Attributen läuft im Hintergrund.
+- 137 automatisierte Desktop-Selbsttests einschließlich synthetischer Oberflächen- und Speicherprüfungen erfolgreich. Keine Freigabe für Live-Verkauf oder echte Kundendaten.
+
+## 0.9.92
+
+Metadaten erstellt: 2026-10-04T19:06:30.7754571+00:00 · [Manifest](../updates/stable/0.9.92/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.92)
+
+- Markt- und Versandkonfiguration laden nur noch die benötigten Grundlagen statt des gesamten Produktbestands.
+- Speicherfehler beim Marktassistenten und beim normalen Speichern von Verkaufskanälen behoben.
+- Verkaufskanäle, Versandkarten und Ländergruppen werden mit begrenztem Speicherbedarf atomar gespeichert; Produktdaten bleiben unverändert.
+- Bestehende Produkttyp-Zuordnungen, Preisprüfungen und Konfliktschutz bleiben erhalten; geänderte Einkaufspreisgrundlagen werden zusätzlich erkannt.
+
+## 0.9.91
+
+Metadaten erstellt: 2026-10-04T17:41:08.0298295+00:00 · [Manifest](../updates/stable/0.9.91/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.91)
+
+- Beydosh PIM 0.9.91
+- Produktliste: Die große obere Filterleiste entfällt. Die kompakte weiße Suche mit Lupensymbol und Platzhalter steht ganz rechts.
+- Aufklappbare Wertelistenfilter an allen Datenspalten, einschließlich Kategorie, Herkunft, Pflegezustand, EAN, Bestand und Einkaufspreis.
+- Spaltenfilter lassen sich kombinieren und einzeln zurücksetzen. Verfügbare Werte berücksichtigen die anderen aktiven Spaltenfilter.
+- Sortierung über die Spaltenköpfe bleibt erhalten. Produktauswahlen bleiben auch bei ausgeblendeten Zeilen bestehen.
+- Produkt- und Importsuche verwenden einen gemeinsamen Suchbaustein; bestehende Spaltenfilter und Sortierregeln werden wiederverwendet.
+- Die E-Mail-Assistentenverbesserungen aus 0.9.90 bleiben enthalten. Keine Änderung an eBay-Live-Sperren oder Versandfreigaben.
+- Prüfung: 135 Desktop-Selbsttests einschließlich synthetischer Fensterregression bestanden; Produktansicht gerendert und visuell geprüft. Keine echte eBay-Veröffentlichung.
+
+## 0.9.90
+
+Metadaten erstellt: 2026-10-04T16:19:11.1740571+00:00 · [Manifest](../updates/stable/0.9.90/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.90)
+
+- Beydosh PIM 0.9.90
+- Kontaktpflege aus kurzen natürlichen Mailaufträgen: selbstständiger Import durch normale Postfachordner einschließlich Gesendet, ohne manuelle Mailauswahl und ohne erforderlichen E-Mail-Entwurf.
+- Kontakte aus beobachteten Absender-, Empfänger-, CC- und Reply-To-Kopfzeilen. Geschäftliche Angaben aus Absender-Signaturen bleiben quellengebunden; keine Zuordnung fremder Signaturen an Empfänger.
+- Geprüfte Kontaktangaben werden je Abschnitt gespeichert. Fehler in Entwurf oder globalen Quellen verwerfen gültige Kontaktbeobachtungen nicht mehr.
+- Gezielte Rückmeldung und Korrektur fehlerhafter Kontaktangaben; gültige leere Auswertungen erzeugen keine unnötigen Rückfragen.
+- Verschlüsselter lokaler Chat-Arbeitsstand auch ohne Entwurf. Unterbrochener Import lässt sich nach erneutem Öffnen fortsetzen; Wiederholung erzeugt keine doppelten Beobachtungen.
+- Ausgabe nach Auftrag: Chatantwort, strukturierter Entwurf oder fachliche Rückfrage. Schreiben, PIM-Abfragen, Recherche, Antworten und Weiterleitungen verwenden die vorhandenen gemeinsamen Bausteine.
+- Manuelle Kontaktkorrekturen, Löschmarkierungen, Postfach-/Arbeitsbereichstrennung, Lesefreigabe und Signaturverhalten bleiben erhalten. Kein automatischer Versand.
+- Prüfung: synthetische Kontaktseiten über 203 Nachrichten und Fensterablauf über 147 Nachrichten mit Unterbrechung und Fortsetzung; bestehende Desktop- und UI-Regression. Keine Prüfung privater Postfächer und keine Garantie vollständiger Firmenangaben.
+
+## 0.9.89
+
+Metadaten erstellt: 2026-10-04T14:51:55.7489833+00:00 · [Manifest](../updates/stable/0.9.89/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.89)
+
+- Beydosh PIM 0.9.89
+- Kontakte unter Spam: lokale, filterbare Tabelle mit Firmen, Ansprechpartnern, Funktionen und Kontaktdaten; Hinzufügen, Bearbeiten und Löschen.
+- Mailassistent vereinfacht: nur E-Mail-Vorschau und Rückfragen. Antworten, Allen antworten und Weiterleiten werden im Chat beauftragt, nicht über zusätzliche Aktionsbuttons.
+- Reine Fragen und Analysen können direkt im Chat beantwortet werden, ohne neuen E-Mail-Entwurf.
+- Postfachübersicht über Gesprächskopfzeilen einschließlich Gesendet; mögliche offene Antworten werden als Kandidaten gekennzeichnet, nicht als sicher unerledigt.
+- Belegte recherchierte Firmenkontakte werden lokal gespeichert. Quellen bleiben prüfbedürftig.
+- Produktassistent ohne Vorauswahl: selbstständige Katalogsuche mit allgemeinen Spaltenfiltern, Trefferzahlen, gruppierten Werten und Produktseiten. Änderungen werden je Artikel angezeigt und erst nach Bestätigung gespeichert.
+- Bestehende Feldsperren, Postfach-Lesefreigaben, lokale Verschlüsselung und Revisionsprüfungen bleiben erhalten. Keine automatischen E-Mail-Sendungen.
+- Hinweise: Produktänderungsvorschläge umfassen weiterhin bis zu 50 geladene Produkte pro Freigabe. Eine vollständige Kopfzeilenprüfung ist keine vollständige Inhaltsanalyse sämtlicher E-Mails. Getestet mit synthetischen Daten; kein Versand und keine Prüfung privater Postfächer.
+
+## 0.9.88
+
+Metadaten erstellt: 2026-10-04T10:17:46.8201884+00:00 · [Manifest](../updates/stable/0.9.88/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.88)
+
+- Beydosh PIM 0.9.88
+- Der E-Mail-Assistent bearbeitet umfangreiche Rechercheaufträge selbstständig und erhält bereits belegte Kontakte sowie gültige Entwürfe.
+- Fehlerhafte Teilangaben werden einzeln geprüft und mit konkreter Rückmeldung zur Korrektur an die KI gegeben. Ein brauchbarer Entwurf bleibt erhalten.
+- Der neue Reiter Kontakte & Firmen zeigt geschäftliche Ansprechpartner, Firma, Position, Abteilung, Website, Telefon und Anschrift mit Datum und Nachrichtenbeleg. Widersprüche bleiben sichtbar.
+- Gesprächsbezüge, Nachrichtenkennungen und abweichende Antwortadressen werden aus freigegebenen E-Mails übernommen. Die Auswertung bleibt auf gezielt geladene Nachrichten beschränkt.
+- Kontaktdaten und der vollständige Assistenten-Arbeitsstand werden lokal verschlüsselt und postfachgebunden gespeichert. Beim Laden eines KI-Entwurfs werden Chat, Quellen, Entscheidungen und offene Punkte wiederhergestellt.
+- Antworten, Allen antworten und Weiterleiten verwenden dieselbe vorhandene E-Mail-Logik wie der Editor. Gespeicherte Postfachsignaturen werden beibehalten.
+- Rechercheübersicht, Fortsetzen, lokale Zwischensicherung und vorherige Entwurfsversion unterstützen längere Aufgaben. Kopieren, Antworten und Aktivität öffnen erhalten die Leseposition im Chat.
+- 135 Desktop-Selbsttests und zusätzliche Fenstertests erfolgreich. Kontaktextraktion mit synthetischen Nachrichten geprüft; eine echte Postfachabnahme bleibt offen.
+
+## 0.9.87
+
+Metadaten erstellt: 2026-10-01T21:55:49.6614243+00:00 · [Manifest](../updates/stable/0.9.87/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.87)
+
+- Beydosh PIM 0.9.87
+- Mailassistent: Korrekturversuche gelten pro Antwort statt für den gesamten Auftrag. Wiederholte Prüfprobleme führen zu sichtbaren Rückfragen; die konkrete Prüfmeldung erscheint im Aktivitätsverlauf.
+- Vorhandene Entwürfe bleiben erhalten und können nach Beantwortung der Rückfrage weiterbearbeitet werden.
+- Neue Aktionen: In Entwurf speichern neben Übernehmen sowie Aus Entwurf laden oberhalb der Reiter. Laden zeigt in Beydosh gespeicherte Entwürfe des gewählten Postfachs.
+- Überschriften: E-Mail-Assistent links, Gespräch mit der KI rechts; E-Mail-Vorschau bleibt als Reiter.
+- Vorhandene lokale Entwurfsverwaltung und Postfach-Synchronisierung werden wiederverwendet. Formatierung, Signaturen und Anhänge geladener Entwürfe bleiben erhalten.
+- Desktop-Selbsttests und zusätzliche Fenstertests für Rückfragen, Wiederaufnahme, Speichern und Laden bestanden.
+
+## 0.9.86
+
+Metadaten erstellt: 2026-10-01T20:57:47.1157487+00:00 · [Manifest](../updates/stable/0.9.86/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.86)
+
+- Beydosh PIM 0.9.86
+- Mailassistent: konkrete Prüfmeldungen an die KI zurückgeben, damit fehlerhafte Antworten automatisch korrigiert werden können.
+- Wird die Korrektur erneut abgewiesen, kann die KI eine verständliche Rückfrage im Reiter Rückfragen formulieren. Vorhandene Entwürfe bleiben erhalten.
+- Korrekturversuche sind begrenzt; Quellenprüfung und Postfachberechtigungen bleiben wirksam.
+- 134 automatisierte Desktop-Tests bestanden, einschließlich wiederholter Quellenfehler und Rückfrageablauf.
+
+## 0.9.85
+
+Metadaten erstellt: 2026-10-01T20:28:18.4738028+00:00 · [Manifest](../updates/stable/0.9.85/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.85)
+
+- Beydosh PIM 0.9.85
+- Mailassistent: tatsächlich recherchierte Webquellen im Quellenfeld korrekt zuordnen, damit verwendbare E-Mail-Entwürfe erhalten bleiben.
+- Unbekannte Quellenkennungen einmalig automatisch korrigieren. Unbelegte Quellen bleiben gesperrt.
+- Entzogene Postfach-Lesefreigaben bleiben auch bei der Quellenkorrektur wirksam.
+- 134 automatisierte Desktop-Tests bestanden, einschließlich Quellenzuordnung, Reparaturablauf und Berechtigungsgrenzen.
+
+## 0.9.84
+
+Metadaten erstellt: 2026-10-01T20:13:24.602355+00:00 · [Manifest](../updates/stable/0.9.84/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.84)
+
+- Beydosh PIM 0.9.84
+- Mailassistent: gespeicherte Postfachsignatur mit Formatierung verwenden; ohne gespeicherte Signatur eigene passende Signatur aus bekannten Absenderangaben.
+- E-Mail-Editor: Datei, Signatur und Formatierungsaktionen in einer gemeinsamen Button-Zeile.
+- Mailrecherche: offene Recherchepunkte selbstständig in Gruppen fortsetzen, geprüfte Kontakte erhalten, bei Stillstand Restliste anzeigen.
+- KI-Chats: Kopieren, Antworten und Öffnen der Aktivität lösen keinen Sprung ans Chatende mehr aus.
+- 134 automatisierte Desktop-Tests bestanden. Kein automatischer E-Mail-Versand. Vollständigkeit und aktuelle Kontaktangaben bleiben prüfbedürftig.
+
+## 0.9.83
+
+Metadaten erstellt: 2026-10-01T19:50:06.2474044+00:00 · [Manifest](../updates/stable/0.9.83/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.83)
+
+- Beydosh PIM 0.9.83
+- Mailassistent: Rechercheprüfung und E-Mail-Editor verwenden dieselbe Empfängerprüfung. Semikolonlisten und leere Felder mit Leerzeichen verursachen keinen nachträglichen Parserabbruch mehr.
+- Belegte BCC-Empfänger bleiben erhalten; unbelegte Empfänger werden weiterhin herausgefiltert.
+- 134 Desktop-Selbsttests erfolgreich, einschließlich mehrerer BCC-Adressen und vollständigem Entwurfsablauf.
+
+## 0.9.82
+
+Metadaten erstellt: 2026-10-01T19:39:07.2138035+00:00 · [Manifest](../updates/stable/0.9.82/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.82)
+
+- Beydosh PIM 0.9.82
+- Mailassistent: E-Mail-Vorschau und Rückfragen als getrennte Reiter. Rückfragen direkt im Eingabefeld beantworten; Übernehmen steht in der Vorschau bereit.
+- Bei reinen Rechercheantworten wird der angeforderte Entwurf abschließend erstellt. Bleibt die Antwort unvollständig, erscheinen konkrete Rückfragen.
+- Webquellen werden aufklappbar angezeigt. Unerwartete Hintergrundfehler werden im Assistenten gemeldet.
+- 134 Desktop-Selbsttests sowie ein echter Recherchetest mit öffentlichem Hersteller und synthetischem BCC-Entwurf erfolgreich. Die vollständige Nutzerabfrage über den eigenen Herstellerbestand ist noch nicht bestätigt.
+
+## 0.9.81
+
+Metadaten erstellt: 2026-10-01T19:25:42.626722+00:00 · [Manifest](../updates/stable/0.9.81/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.81)
+
+- Beydosh PIM 0.9.81
+- E-Mail-Assistent: Widersprüchliche Anweisungen für Datenabfragen und Entwürfe korrigiert. Der Entwurf wird nach der Datenabfrage erstellt.
+- Vermischt eine KI-Antwort beide Schritte, wird genau einmal eine korrigierte Antwort angefordert und vollständig geprüft. Bei erneutem Fehler bleibt ein vorhandener Entwurf erhalten.
+- 134 Desktop-Selbsttests erfolgreich, einschließlich Korrekturversuch, Abbruchgrenze und Erhalt des Entwurfs.
+
+## 0.9.80
+
+Metadaten erstellt: 2026-10-01T19:15:12.09069+00:00 · [Manifest](../updates/stable/0.9.80/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.80)
+
+- Beydosh PIM 0.9.80
+- E-Mail-Assistent: Entwürfe bleiben bei offenen Recherchekontakten nutzbar. Unbestätigte Empfänger werden ausgelassen und kenntlich gemacht. Folgefragen erhalten den aktuellen Entwurf; Verbindungsfehler verwerfen ihn nicht.
+- Produkt- und Attributassistent: Vorhandene Vorschläge werden bei Folgefragen berücksichtigt und bei Fehlern beibehalten.
+- Alle KI-Assistenten: Nachrichten kopieren oder direkt darauf antworten; die ausgewählte Nachricht wird sichtbar an die neue Frage angeknüpft.
+- E-Mail: Aktionssymbole werden vollständig innerhalb der Buttons angezeigt.
+- 134 Desktop-Selbsttests erfolgreich. E-Mails werden erst durch die normale manuelle Versandaktion gesendet. Visuelle Abnahme durch den Nutzer steht noch aus.
+
+## 0.9.79
+
+Metadaten erstellt: 2026-10-01T18:35:10.1428755+00:00 · [Manifest](../updates/stable/0.9.79/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.79)
+
+- Beydosh PIM 0.9.79: Mail-Recherche mit dem gemeinsamen KI-Zugang verbessert.
+- Hersteller und andere freigegebene PIM-Felder lassen sich gefiltert und gruppiert abfragen; Wertelisten werden seitenweise geladen und verbleibende Grenzen sichtbar gekennzeichnet.
+- Rechercheauftraege verlangen eine tatsaechlich ausgefuehrte Websuche. Aktuelle Quellenereignisse werden gemeinsam fuer alle Assistenten ausgewertet.
+- Recherchierte BCC-Empfaenger werden gegen Kontakteintraege und transportgemeldete Quellen geprueft; unbekannte Angaben werden nicht erfunden.
+- Keine Kategorienregeln im Mailassistenten, kein automatischer Versand, keine Produkt- oder Kategorieaenderungen. Entwurf und Empfaenger vor dem Versand pruefen.
+- 134 Desktop-Selbsttests und ein echter Recherchetest mit einem oeffentlichen Hersteller erfolgreich. Visuelle Abnahme bleibt offen; Vorabversion im bestehenden Update-Kanal.
+
+## 0.9.78
+
+Metadaten erstellt: 2026-10-01T17:42:19.1864577+00:00 · [Manifest](../updates/stable/0.9.78/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.78)
+
+- Beydosh PIM 0.9.78: Gemeinsame Webrecherche im Grundgeruest aller sechs KI-Assistenten.
+- Mail-, Produkt- und Attributassistent recherchieren bei Bedarf oeffentliche Webquellen, ebenso Kategorien, Versand und Verkaufsmaerkte.
+- Einheitlicher Recherche-Schalter und Quellenanzeige im Chat; fehlende Recherche und fehlende Quellen werden offen benannt.
+- OpenAI-API und Codex unterstuetzt; keine stillen Anbieterwechsel bei anderen Anbindungen.
+- Postfach-Lesefreigabe, Importsperren, Pruefung und manuelle Uebernahme bleiben erhalten. Keine automatische E-Mail-Sendung.
+- 134 Desktop-Selbsttests erfolgreich. Echte Webrecherche und visuelle Abnahme stehen noch aus; Vorabversion fuer den bestehenden Update-Kanal.
+
+## 0.9.77
+
+Metadaten erstellt: 2026-10-01T17:05:08.4241761+00:00 · [Manifest](../updates/stable/0.9.77/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.77)
+
+- Beydosh PIM 0.9.77
+- Der Mailassistent korrigiert nicht verfügbare Produktspalten anhand der freigegebenen Feldübersicht. Wiederholte oder zu umfangreiche Recherche wird verständlich beendet statt mit einer pauschalen Fehlermeldung.
+- Fehler erscheinen im Chat mit Diagnosecode. Postfach-Lesefreigabe, Antwortprüfung und Verbindungsfehler werden unterschieden; das vorhandene datensparsame Fehlerprotokoll enthält keine Mailtexte oder Zugangsdaten.
+- Fehlende Herstellerländer und Kontaktadressen werden nicht erfunden. E-Mail-Entwürfe müssen weiterhin übernommen und vor dem Senden geprüft werden. Keine automatische E-Mail-Versendung.
+- Das Update enthält den signierten Launcher-Wartungshelfer für Beydosh PIM. Das separat reparierte Setup und der Windows-Programmeintrag bleiben erhalten.
+- Keine Freigabe für Kundendistribution oder Live-Verkäufe. Visuelle und echte KI-Abnahme bleiben gesondert.
+
+## 0.9.75
+
+Metadaten erstellt: 2026-10-01T15:50:40.0748753+00:00 · [Manifest](../updates/stable/0.9.75/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.75)
+
+- Beydosh PIM 0.9.75
+- Der Mailassistent kann Produktdaten jetzt gezielt wie eine Produktliste filtern: mehrere Spaltenbedingungen kombinieren, Attribute und Varianten berücksichtigen sowie Zahlen und fehlende Werte prüfen.
+- Die KI kann bei Bedarf die verfügbaren Felder, reine Trefferzahlen, unterschiedliche Spaltenwerte oder ausgewählte Produktdetails abrufen. Hersteller sind nur ein Anwendungsfall. Große Kataloge werden lokal im Hintergrund ausgewertet; es wird nicht der gesamte Produktbestand an die KI übertragen.
+- Die Suche berücksichtigt vorhandene manuelle Produktwerte, erfasst auch Treffer nach den ersten 50 Produkten und unterscheidet Kataloggröße von Filtertreffern. Fehlende Länder, Kontaktadressen oder Produktangaben werden nicht erfunden. Postfach-Lesefreigabe und manuelle Übernahme von E-Mail-Entwürfen bleiben erhalten; nichts wird automatisch gesendet.
+- Die alten installierten Launcher-/Installer-Bezeichnungen sind in diesem App-Update noch nicht korrigiert. Keine Freigabe für kommerziellen Betrieb oder Live-Verkäufe.
+
+## 0.9.74
+
+Metadaten erstellt: 2026-10-01T14:55:40.8000517+00:00 · [Manifest](../updates/stable/0.9.74/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.74)
+
+- Beydosh PIM: Gemeinsames KI-Assistentenlayout korrigiert.
+- KI-Anfragen und neue Teilanfragen öffnen Vorgeschlagene Änderungen; Arbeitsanzeige und Stopp befinden sich oben in diesem Reiter.
+- Aktueller Arbeitsverlauf im Chat für Kategorie-, Produkt-, Attribut-, Versand-, Markt- und Mailassistenten.
+- Mailassistent mit Arbeitsanzeige in der E-Mail-Vorschau ohne zusätzliche Reiter.
+- Attributvorlagen: kompakter KI-Assistent zwischen Attribut hinzufügen und rotem Aus Vorlage entfernen.
+- Bestehende Lese-, Import-, Bestätigungs- und Abbruchgrenzen bleiben erhalten. Nichts wird automatisch versendet oder veröffentlicht.
+
+## 0.9.73
+
+Metadaten erstellt: 2026-10-01T14:05:18.7573022+00:00 · [Manifest](../updates/stable/0.9.73/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.73)
+
+- Beydosh PIM 0.9.73 - Aufgeräumter Mailassistent und Ladeanzeige
+- Mailassistent: E-Mail-Vorschau links, Gespräch rechts und Übernehmen unten; Empfänger, CC, BCC, Betreff und Text bleiben vor der Übernahme sichtbar.
+- Manuelle Ladefelder entfallen. Die KI fordert benötigte Postfach- und PIM-Daten selbst über begrenzte, geprüfte Leseabfragen an.
+- Postfachsuche über alle Serverordner, einschließlich eigener Ordner, mit gezielter Ordnerauswahl und Seitenabfragen; keine behauptete Vollständigkeit aus Teilergebnissen.
+- KI-Lesefreigabe bleibt je Postfach erforderlich und standardmäßig aus. Widerruf entfernt mailbezogene Gesprächsdaten vor weiteren KI-Aufrufen.
+- Mailtexte werden ohne Anhänge, Bilder oder Rohmail abgerufen. PIM-Zugriff bleibt ausschließlich lesend im bestehenden Arbeitsbereich.
+- Übernehmen öffnet den vorhandenen E-Mail-Editor ohne Versand. Verschiebevorschläge benötigen weiterhin gesonderte Bestätigung.
+- Abbruch, wiederholte Datenabfragen und kleine Fenstergrößen abgesichert; während einer Anfrage neu eingegebener Text bleibt erhalten.
+- Nur ein Ladehinweis pro Fenster, auch bei parallelen Startvorgängen. Eigene Fortschritte bleiben erhalten und werden nach Abschluss wieder angezeigt.
+- Bestehendes Chatlayout, Mailvalidierung, KI-Transport und PIM-Leser wiederverwendet; keine automatische Core-Synchronisierung.
+- Beta-/Owner-Update: keine Kunden-Setup-Freigabe und keine Freigabe für echte Verkäufe oder reale Bestellungen. Echte KI-/IMAP-Abnahme bleibt offen.
+
+## 0.9.72
+
+Metadaten erstellt: 2026-09-30T22:58:30.6362682+00:00 · [Manifest](../updates/stable/0.9.72/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.72)
+
+- Beydosh PIM 0.9.72 - Assistenten und flüssigeres Arbeiten
+- Produktassistent: Produkttexte, Übersetzungen und Variantengruppen als geprüfte Vorschläge; importgepflegte Inhalte bleiben geschützt.
+- Produkt- und Attributassistent: aktueller Stand, vorgeschlagene Änderungen und Rückfragen in getrennten Reitern; Übernahme nur nach ausdrücklicher Bestätigung.
+- Attributassistent als eigener Chat über einen Button, spezialisiert auf die Struktur des jeweiligen Produkttyps.
+- Mailassistent: Entwürfe mit An, CC, BCC und Betreff sowie lesende PIM-Grundlage; keine automatische Versendung.
+- KI-Lesefreigabe für Nachrichten je Postfach als Schalter, standardmäßig ausgeschaltet.
+- E-Mails werden beim Programmstart abgerufen; neue Benachrichtigungen zeigen Absender, Betreff und gekürzten Inhalt.
+- Benachrichtigungen haben begrenzte, aufklappbare Inhalte; Doppelklick markiert sie gelesen und öffnet ein vorhandenes internes Ziel.
+- Lade-, Speicher- und Schließvorgänge in den überarbeiteten Bereichen laufen im Hintergrund; ausstehende Speicherung wird beim Verlassen berücksichtigt.
+- Unbekannte importierte Produkttypen bleiben erhalten und werden als noch nicht eingerichteter Produkttyp gemeldet.
+- Gespeicherte Variantenlisten bleiben bestehen; manuelle Änderungen haben Vorrang vor der automatischen Erstinitialisierung.
+- Beydosh PIM als sichtbarer Programmname auch in Launcher, Einrichtung und eigenen Programmverknüpfungen; technische Speicheridentitäten bleiben kompatibel.
+- Gemeinsame Bausteine für KI-Reiter, Rückfragen, Hintergrundspeicherung, Schließen und Benachrichtigungen statt paralleler Implementierungen.
+- Beta-/Owner-Update: keine Kunden-Setup-Freigabe, keine Freigabe für echte Verkäufe oder reale Bestellungen und keine automatische Core-Synchronisierung.
+
+## 0.9.71
+
+Metadaten erstellt: 2026-09-30T19:42:18.2112792+00:00 · [Manifest](../updates/stable/0.9.71/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.71)
+
+- Beydosh PIM 0.9.71 – Produkttyp aus der Importtabelle
+- Verbindungsvorlagen bieten jetzt das Standardfeld Produkttyp.
+- Eine Quellspalte kann direkt dem Produkttyp zugeordnet werden.
+- Die Zuordnung bleibt in der gespeicherten Vorlage erhalten.
+- Passende Attribute werden bereits beim ersten Import übernommen.
+- Vorhandene Werteübersetzungen gelten auch für Produkttypen.
+- Unbekannte Produkttypen werden verständlich gemeldet, nicht erfunden.
+- Beim Typwechsel bleiben keine fremden importierten Attribute zurück.
+- Bestehende manuelle Zuordnungen behalten ihre bisherige Priorität.
+- Die vorhandenen Sicherheits- und Verkaufssperren bleiben unverändert.
+
+## 0.9.70
+
+Metadaten erstellt: 2026-09-30T17:44:09.9589106+00:00 · [Manifest](../updates/stable/0.9.70/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.70)
+
+- Beydosh PIM 0.9.70 Beta – kompakte eBay-Anbindung und Marktzuordnung.
+- Der Markt für die Preisberechnung ist direkt bei der Konto-Anbindung auswählbar.
+- Vorhandene Preisregeln und gespeicherte Marktkennungen werden unverändert wiederverwendet.
+- Die doppelte Marktauswahl im Produktschritt entfällt.
+- Ein Wechsel einer bestehenden Marktzuordnung verlangt eine ausdrückliche Bestätigung.
+- Abbrechen erhält die bisherige Zuordnung; fehlende oder mehrdeutige Märkte werden nicht ersetzt.
+- Lokale Entwicklerdaten sind unter Weitere Einstellungen eingeklappt und bleiben für den eigenen Betrieb verfügbar.
+- Der Export-Auswahldialog passt seine Höhe dem Inhalt an; der redundante Erklärungstext entfällt.
+- Gemeinsame Bedienbausteine, Marktwechsel-Regressionen und schmale sowie breite Ansichten wurden geprüft.
+- Dieses Beta-Update schaltet weder die zentrale Kundenanmeldung noch echte Verkäufe oder Bestellimporte frei; die gemeinsame Nutzerabnahme bleibt offen.
+
+## 0.9.69
+
+Metadaten erstellt: 2026-09-30T14:42:01.4526646+00:00 · [Manifest](../updates/stable/0.9.69/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.69)
+
+- Beydosh PIM 0.9.69 (Beta): Modulare eBay-Einrichtung und produktbezogene Verkaufsauftraege.
+- Gefuehrte eBay-Einrichtung mit getrennten Sandbox- und Echtbetrieb-Anmeldungen, geschuetzter Speicherung und automatischer Erneuerung der Zugangsberechtigung.
+- Vorhandene Richtlinien und Versandstandorte laden; Kategorien, Artikelzustand und Produktmerkmale zuordnen und gegen eBay-Vorgaben pruefen.
+- Preise & Maerkte mit gemeinsamem Markt-/Regelbaum und produktbezogenen Schaltern. Der Bulk-Editor verwendet denselben Auftrag fuer ausgewaehlte Produkte.
+- Automatische Sandbox-Verarbeitung nach ausdruecklicher Freigabe der Verbindung: Bilder vorbereiten, Angebot veroeffentlichen, aktualisieren, beenden und erneut aktivieren.
+- Separate manuelle Bilduebertragung und Sandbox-Entwurfsanlage entfernt. Produktpruefung und Vorschau bleiben erhalten.
+- Gespeicherte Auftraege und geschuetzte Uebertragungsschritte verhindern ungeprueftes erneutes Senden. Sichere Vorbereitungen koennen nach Neustart fortgesetzt werden; unklare Ergebnisse bleiben gesperrt.
+- Verstaendlichere Hinweise fuer fehlende Freigabe, unvollstaendige Produktdaten und noch nicht bestaetigte Uebertragungen.
+- Gemeinsame Hintergrundverarbeitung fuer Lade-/Speichervorgaenge und Verkaufsauftraege; Doppelklick auf neue E-Mail-Benachrichtigungen oeffnet die zugehoerige Nachricht.
+- Wichtig: Echtbetrieb-Veroeffentlichung und Bestellimport bleiben gesperrt. Varianten und weitere Pflichtangaben sowie der vollstaendige Fenster-/Bulk-Ablauf benoetigen weitere Pruefung. Sandbox-Nachweise sind keine kommerzielle Freigabe; visuelle Abnahme erfolgt mit dem Nutzer.
+
+## 0.9.68
+
+Metadaten erstellt: 2026-09-25T16:51:25.5378384+00:00 · [Manifest](../updates/stable/0.9.68/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.68)
+
+- Beydosh PIM 0.9.68 (Beta): E-Mail-Ansicht, gemeinsame Entwuerfe und stabile dunkle Listen.
+- Korrigiert: Ordner- und Nachrichtenlisten werden beim Wechseln, Laden oder Speichern nicht mehr durch die Windows-Standarddarstellung weiss.
+- Gemeinsame Symbole fuer Postfachordner und Nachrichtenaktionen. Die Bedeutung der Aktionssymbole erscheint beim Darueberfahren.
+- Eigene Ordner stehen unter den Standardordnern im Abschnitt Ordner. Ordner hinzufuegen steht unten; leere eigene Ordner lassen sich nach Rueckfrage loeschen. Systemordner bleiben geschuetzt.
+- Der manuelle Abrufen-Button entfaellt. Nachrichten werden weiter automatisch aktualisiert.
+- Bereinigter heller Lesebereich: HTML-Quelltext-Einrueckungen erzeugen keine riesigen Leerraeume, Listen erhalten sichtbare Aufzaehlungen. Weiterhin vereinfachte sichere HTML-Darstellung, kein vollstaendiger Browser.
+- Eine gemeinsame Entwuerfe-Ansicht. Speichern sichert lokal verschluesselt und synchronisiert mit dem Server-Entwuerfe-Ordner. Nicht synchronisierte Sicherungen und erkannte Konflikte werden gekennzeichnet.
+- Ausstehende Entwurfsuebertragungen werden bei laufender Anwendung und geschlossenem Editor erneut versucht. Voraussetzung sind ein vom Server gemeldeter Entwuerfe-Ordner und UIDPLUS; andernfalls bleibt die lokale Sicherung erhalten.
+- Wiederaufnahme nach unterbrochenen Uebertragungen und gezieltes Entfernen der Server-Entwurfskopie nach bestaetigtem Versand. Ein unklarer Versand wird nicht automatisch wiederholt.
+- Keine Aenderungen an Preisen, Versandkalkulation oder Verkaufskanaelen. Automatisierte Tests und Ansichten mit synthetischen Daten; echte Postfachanbieter und gleichzeitige Mehrgeraetebearbeitung benoetigen gesonderte Pruefung.
+
+## 0.9.67
+
+Metadaten erstellt: 2026-09-25T16:00:10.1627657+00:00 · [Manifest](../updates/stable/0.9.67/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.67)
+
+- Beydosh PIM 0.9.67 (Beta): aufgeraeumter E-Mail-Bereich und stiller Nachrichtenabruf.
+- Ordnerleiste, Nachrichtenliste mit einzelnen Karten und grosser Lesebereich. Gelesene und ungelesene Nachrichten sind klar unterscheidbar.
+- Der Editor nutzt beim Schreiben mehr Breite; kompakte Empfaengerfelder lassen auch in kleineren Fenstern Platz fuer die Nachricht.
+- Automatischer Abruf standardmaessig alle 60 Sekunden, pro Postfach einstellbar (15 bis 3600 Sekunden; 0 = manuell).
+- Bestehende positive Minutenintervalle bleiben erhalten. Bisherige 0-Minuten-Vorgaben wechseln auf den neuen 60-Sekunden-Standard.
+- Hintergrundabruf ohne Ladeanzeige; Auswahl, Lesebereich und Entwurf bleiben erhalten. Neue Nachrichten erscheinen oben.
+- Neue ungelesene E-Mails werden ueber die Benachrichtigungszentrale gemeldet, solange Beydosh laeuft. Erstabgleich und wiederholte Abrufe melden alte Nachrichten nicht erneut.
+- Bilder passen proportional in den Lesebereich; kleine Logos werden nicht hochskaliert. Lange Kurzinfos umbrechen, der Datenschutzhinweis steht lesbar unter dem Schieber.
+- Skripte bleiben blockiert; externe Bilder behalten die vorhandenen Freigaberegeln. Vereinfachte HTML-Darstellung, kein vollstaendiges Browserlayout.
+- Keine Aenderung an Marktpreisen oder Versandkalkulation. Tests mit synthetischen Nachrichten, kein Nachweis fuer einen echten Postfachanbieter.
+
+## 0.9.66
+
+Metadaten erstellt: 2026-09-25T15:16:10.2572606+00:00 · [Manifest](../updates/stable/0.9.66/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.66)
+
+- Beydosh PIM 0.9.66 (Beta): erweiterter E-Mail-Bereich.
+- Antworten, Allen antworten, Weiterleiten, An/Cc/Bcc, Anhaenge, Ordner, Suche, Markierungen, Archiv und Papierkorb.
+- Formatierte Nachrichten und Signaturen mit Bildern und Links. Signaturen werden nach der Postfacheinrichtung verwaltet.
+- Lokale verschluesselte Entwuerfe, EML-Export und Drucken. Unklarer Versand wird nicht automatisch wiederholt.
+- HTML ist standardmaessig aktiviert. Externe Bilder werden standardmaessig blockiert und koennen je Nachricht freigegeben werden.
+- Separate Postfach-Schieber fuer HTML und automatisches Laden externer Bilder. Skripte bleiben immer blockiert.
+- Gemeinsame Schieberlogik fuer E-Mail-Einstellungen und Netto/Brutto. Gespeicherte Zugangsdaten werden durch Passwortpunkte angezeigt.
+- Weitere Postfachoptionen fuer Signaturen, Antwortadresse, Gelesenstatus, Gesendet-Kopie, Ordnerzuordnung und optionalen Abruf.
+- Beta-Grenzen: vereinfachte HTML-Darstellung, lokale Entwuerfe, keine Outlook-Funktionsparitaet. Anbieter-Kompatibilitaet muss mit einem eigenen Testpostfach geprueft werden.
+- Keine Aenderung an Marktpreisen oder Versandkalkulation. Keine automatische Verbindung zu echten Postfaechern durch das Update.
+
+## 0.9.65
+
+Metadaten erstellt: 2026-09-25T14:04:58.4346763+00:00 · [Manifest](../updates/stable/0.9.65/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.65)
+
+- Beydosh PIM 0.9.65 (Beta): aufgeräumte Postfachverwaltung und Kopfzeile.
+- E-Mail-Einstellungen zeigen zunächst nur Postfach hinzufügen; eingerichtete Postfächer erscheinen links als Liste.
+- Neue Postfächer werden in einem Popup mit Name, E-Mail und Verbindungsdaten angelegt. Abbrechen verwirft die Eingaben.
+- Bei Auswahl eines Postfachs erscheinen rechts dessen Verbindungseinstellungen, Absender und Signatur.
+- Anlegen und Bearbeiten verwenden ein gemeinsames Formular. Speicherfehler lassen den Dialog offen; neue Zugangsdaten werden bei fehlgeschlagenem Speichern zurückgenommen.
+- Doppelte Bereichsüberschriften wurden aus der gemeinsamen Kopfzeile entfernt. Die Überschrift bleibt im jeweiligen Seiteninhalt.
+- Keine Änderung an Preisberechnungen oder Versand. Keine automatische E-Mail-Übertragung beim Öffnen oder Anlegen eines Postfachs.
+
+## 0.9.64
+
+Metadaten erstellt: 2026-09-25T13:35:42.1042946+00:00 · [Manifest](../updates/stable/0.9.64/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.64)
+
+- Gemeinsames Fundament: wiederverwendbare Symbole, Schliessen-Buttons, Eingabefelder und Aktionsbuttons fuer mehrere Programmteile zusammengefuehrt.
+- E-Mail ohne eingerichtetes Postfach zeigt nur den mittigen Button E-Mail Dienst verbinden und Schliessen. Der Button fuehrt direkt zur Einrichtung.
+- E-Mail mit Postfach nutzt eine durchgehend dunkle Darstellung. Lesen und Schreiben teilen sich den grossen rechten Bereich; Zurueck erhaelt den aktuellen Text waehrend der Sitzung.
+- Der E-Mail-Button in der Kopfzeile ist an die Nachbarbuttons angeglichen. Gemeinsame Auswahllisten zeigen die Kontobezeichnung statt interner Objektdaten.
+- Dezimalzahlen fuer Produktwerte, Marktstaffeln und Sortierung werden gemeinsam verarbeitet. Bestehende Zahlenformate und fachliche Grenzen bleiben erhalten; Preisformeln wurden nicht geaendert.
+- KI-Verlaeufe und Kategorieentwuerfe verwenden eine gemeinsame atomare Dateispeicherung mit Sicherung der vorherigen Version. Konfliktpruefungen und Speichergrenzen bleiben erhalten.
+- Ladehinweise ergaenzen Bitte kurz warten nicht mehr doppelt. Wiederverwendung ist als programmweite Entwicklungsregel dokumentiert und durch Regressionstests abgesichert.
+- Beta-Testversion: keine neuen eBay-Livefunktionen, keine automatische E-Mail-Uebertragung und keine Core-Synchronisation. E-Mail bitte weiterhin mit einem separaten Testpostfach ohne echte Kundendaten pruefen.
+
+## 0.9.63
+
+Metadaten erstellt: 2026-09-25T12:38:47.7506103+00:00 · [Manifest](../updates/stable/0.9.63/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.63)
+
+- Beydosh PIM: sichtbarer Programmname und neu gegliederte Einstellungen fuer Shopinformationen, Anzeige, Sprache, Daten & Betrieb, E-Mail sowie KI & Automatisierung.
+- E-Mail-Testfunktion fuer vorhandene IMAP-/SMTP-Postfaecher: Konto und Signatur einrichten, Verbindung pruefen, Posteingang manuell abrufen, Klartext lesen und eine Nachricht ausdruecklich senden.
+- Postfach-Zugangsdaten werden geschuetzt gespeichert. Konten erscheinen nur im aktiven lokalen Workspace. Keine automatische Abfrage, kein automatischer Versand und keine Aenderung von Produkt- oder Verkaufsdaten.
+- Erste Beta-Ausbaustufe: noch keine Anhaenge, Suche, lokalen Entwuerfe oder Gesendet-Ablage und keine Core-/Mehrgeraete-Synchronisation. Zum Test bitte ein separates Testpostfach ohne echte Kundendaten verwenden.
+- eBay kann als Exportanbieter vorbereitet werden; ohne genehmigte Entwicklerdaten erfolgt keine OAuth-Verbindung und keine Veroeffentlichung von Angeboten.
+
+## 0.9.62
+
+Metadaten erstellt: 2026-09-25T09:59:04.7304039+00:00 · [Manifest](../updates/stable/0.9.62/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.62)
+
+- Preisregeln lassen sich manuell und im Markt-KI-Assistenten vorhandenen Produkttypen zuordnen. Mehrere Typen pro Regel sind moeglich; Kategorien beeinflussen die Zuordnung nicht.
+- Im selben Verkaufskanal und Land koennen unterschiedliche Produkttypen unterschiedliche Preisregeln nutzen. Ueberschneidungen werden blockiert; fehlende Zuordnungen liefern keinen ungeprueften VK.
+- Die Produktzuordnung ist im Preisregel-Editor, auf der Marktkarte und im KI-Entwurf sichtbar. Bestehende Regeln bleiben fuer alle Produkte gueltig, bis sie gezielt eingeschraenkt werden.
+- Der Kalkulationsablauf zeigt Verzweigungen und Zusammenfuehrungen fuer Gewinnstaffeln, progressive Gebuehrenstaffeln und unterschiedliche EK-Steuergrundlagen. Grenzen und Saetze stammen aus der jeweiligen Regel; progressive Teilgebuehren werden addiert.
+- Der zusaetzliche Lade-Popup im KI-Assistenten entfaellt. Arbeitsfortschritt und Stopp bleiben im Assistenten sichtbar.
+- Alle 128 Desktop-Selbsttests erfolgreich, einschliesslich Produkttyp-Zuordnung, Speichern/Laden, KI-Pruefung und Fensterbedienung. Keine automatische Aenderung bestehender Produktdaten oder Gebuehrenwerte; keine externe Veroeffentlichung von Angeboten.
+
+## 0.9.61
+
+Metadaten erstellt: 2026-09-23T21:58:14.9664081+00:00 · [Manifest](../updates/stable/0.9.61/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.61)
+
+- Netto-/Brutto-Schalter: Die sichtbare Markierung folgt jetzt korrekt der Auswahl. Eine alte Brutto-Animation konnte bisher die Netto-Position verdecken, obwohl der interne Wert bereits gewechselt hatte.
+- Die Animation wird beim Verlassen des jeweiligen Zustands entfernt. Ein Regressionstest prueft ausdruecklich die sichtbare Netto-Position nach dem Klick; beide Richtungen wurden zusaetzlich mit echten Mausklicks in einer isolierten Testoberflaeche geprueft.
+- Der Hinweistext unter dem Einkaufspreis-Schalter entfaellt. Der Abstand zwischen Ueberschrift und Schalter entspricht jetzt der Anordnung der Bearbeiten-Funktion in Attributkarten.
+- Alle 128 Desktop-Selbsttests erfolgreich. Das Update aendert keine gespeicherten Einkaufsgrundlagen oder Produktdaten automatisch.
+
+## 0.9.60
+
+Metadaten erstellt: 2026-09-23T21:41:24.1935249+00:00 · [Manifest](../updates/stable/0.9.60/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.60)
+
+- Der visuelle Kalkulationsablauf bleibt beim Bearbeiten sichtbar und aktualisiert sich unmittelbar mit den Einstellungen. Unvollstaendige Eingaben zeigen einen Hinweis; ein alter VK wird als neu zu berechnen markiert.
+- Der Netto-/Brutto-Schalter reagiert auf einen Klick auf seine gesamte Flaeche. Die Einstellung bleibt wie bisher der urspruenglichen Importvorlage zugeordnet.
+- Die EK-Steueransicht unterscheidet die automatisch verwendete Vorlagen-Einstellung von der Ersatzangabe fuer Produkte ohne Importquelle. Die KI beruecksichtigt die konfigurierten Quellgrundlagen.
+- Einkaufssteuersatz und Vorsteuerabzug werden nicht geraten. Fehlende Angaben bleiben erkennbar und sperren weiterhin unvollstaendige Berechnungen.
+- Das X im Preisregel-Editor ist als sauber zentriertes Symbol dargestellt.
+- 128 Desktop-Selbsttests erfolgreich. Keine automatische Veroeffentlichung von Angeboten oder Aenderung bestehender Produktdaten durch dieses Update.
+
+## 0.9.59
+
+Metadaten erstellt: 2026-09-23T21:23:38.8117832+00:00 · [Manifest](../updates/stable/0.9.59/manifest.beydosh.json) · [GitHub-Release](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.59)
+
+- Einkaufspreis-Karten in Verbindungsvorlagen haben einen Netto-/Brutto-Schalter. Standard ist Brutto; bitte entsprechend der Importquelle einstellen.
+- Nach dem Speichern gilt die Einstellung auch fuer bereits importierte Produkte, ohne Neuimport oder Aenderung der gespeicherten EK-Betraege und Anhaenge.
+- Die Kalkulation verwendet die urspruengliche Importvorlage des Produkts. Unterschiedliche Netto-/Brutto-Quellen koennen im selben Verkaufskanal verwendet werden.
+- Der EK-Steuerfaktor ist in der visuellen Markt-Kalkulationsreihe, KI-Entwurfsvorschau und im Produkt-Rechenweg sichtbar: multiplizieren, dividieren oder unveraendert.
+- Einkaufssteuersatz und Vorsteuerabzug bleiben je Preisregel konfigurierbar. Fehlende Grundlagen sperren die Berechnung; gespeicherte Verkaufspreise werden nicht automatisch veroeffentlicht.
+- Preisregel bearbeiten hat oben rechts Preisregel in Karte uebernehmen und daneben ein X fuer die Rueckkehr im selben Fenster. Der bisherige Abbrechen-Button entfaellt; ungespeicherte Aenderungen bleiben durch die Verwerfen-Rueckfrage geschuetzt.
+- Der visuelle Kalkulationsablauf nutzt das breite abgerundete Feld unten und wird bei Bedarf mit Verbindungspfeilen in weiteren Zeilen fortgesetzt.
 
 ## 0.9.58
 
