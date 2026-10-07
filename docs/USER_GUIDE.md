@@ -2,7 +2,7 @@
 
 [Zur Übersicht](../README.md) · [Fehlerhilfe](TROUBLESHOOTING.md) · [Versionshistorie](CHANGELOG.md)
 
-Stand: 0.9.96, 07.10.2026. Beschrieben ist der aktuelle Owner-Development-Stand, keine Freigabe für produktiven Handel.
+Stand: 0.9.97, 07.10.2026. Beschrieben ist der aktuelle Owner-Development-Stand, keine Freigabe für produktiven Handel.
 
 ## 1. Aktualisieren und Daten erhalten
 
@@ -12,9 +12,9 @@ Programmdateien liegen normalerweise unter `%LOCALAPPDATA%/Programs/Beydosh`, Be
 
 Alte Programmversionen nicht ungeprüft über neuere Daten installieren. Eine vorhandene ältere Setup-Datei ist keine sichere Datenmigration oder Rücksetzfunktion.
 
-### Übergangsupdate 0.9.96
+### Übergangsupdate 0.9.97
 
-0.9.96 bereitet den Kanalnamen Beydosh-PIM-Updates vor. Das Repository bleibt vorerst unter der bisherigen Adresse erreichbar. Das Update regulär installieren und neu starten; die Anwendung kann dabei ihren mitgelieferten Wartungshelfer zur Aktualisierung des Launchers verwenden. Eine Versionsanzeige allein bestätigt noch nicht den Stand aller Wartungskomponenten. Keine alten Setup-Dateien darüberkopieren und keine Vertrauensprüfungen abschalten.
+0.9.96 bereitet die erlaubten Kanalpfade vor; 0.9.97 fordert zusätzlich den dafür nötigen Launcher und das Updatewerkzeug an. Zielname ist Beydosh-PIM-Updates. Das Repository bleibt vorerst unter der bisherigen Adresse erreichbar. Das Update regulär installieren und neu starten; die Anwendung kann dabei ihren mitgelieferten Wartungshelfer zur Aktualisierung des Launchers verwenden. Eine Versionsanzeige allein bestätigt noch nicht den Stand aller Wartungskomponenten. Keine alten Setup-Dateien darüberkopieren und keine Vertrauensprüfungen abschalten.
 
 ## 2. Shopwährung und Einkaufspreise
 
@@ -163,7 +163,7 @@ Preisregeln lassen sich mehreren Produkttypen zuordnen. Im selben Kanal und Land
 
 ## eBay einrichten
 
-Die geführte Einrichtung trennt Verbindung, Konto, Marktplatz, Versandstandort, Richtlinien, Produkte und Preise sowie Prüfung. Sandbox und Echtbetrieb sind getrennte Umgebungen. Der veröffentlichte Stand verwendet weiterhin lokale Entwicklerdaten: Für Echtbetrieb sind passende Production-Daten und erfolgreiche OAuth-Zustimmung nötig. Der zentrale Cloudflare-Anmeldedienst für neutrale Nutzer ist nicht Bestandteil von 0.9.96. Eine Anmeldung oder Marktkalkulation allein veröffentlicht kein Angebot und hebt keine Verkaufsfreigaben auf.
+Die geführte Einrichtung trennt Verbindung, Konto, Marktplatz, Versandstandort, Richtlinien, Produkte und Preise sowie Prüfung. Sandbox und Echtbetrieb sind getrennte Umgebungen. Der veröffentlichte Stand verwendet weiterhin lokale Entwicklerdaten: Für Echtbetrieb sind passende Production-Daten und erfolgreiche OAuth-Zustimmung nötig. Der zentrale Cloudflare-Anmeldedienst für neutrale Nutzer ist nicht Bestandteil von 0.9.97. Eine Anmeldung oder Marktkalkulation allein veröffentlicht kein Angebot und hebt keine Verkaufsfreigaben auf.
 
 ## 8. Grenzen
 
