@@ -6,7 +6,7 @@
 
 Dokumentationsstand: **7. Oktober 2026**. Im signierten Kanal ist **0.9.97** aktiviert. Die GitHub-Veröffentlichung ist ein **Owner-Development-Prerelease**, keine Freigabe für Live-Verkauf oder eine fertig abgenommene öffentliche Produktversion. Der Verzeichnisname `stable` ändert diese Einordnung nicht.
 
-Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updates/stable/latest.beydosh.json), nicht diese Versionsangabe. [Release 0.9.97](https://github.com/CrystalxSLY/beydosh-updates/releases/tag/v0.9.97) enthält das Update-Paket.
+Maßgeblich ist immer der vom Launcher verifizierte [signierte Kanalindex](updates/stable/latest.beydosh.json), nicht diese Versionsangabe. [Release 0.9.97](https://github.com/CrystalxSLY/Beydosh-PIM-Updates/releases/tag/v0.9.97) enthält das Update-Paket.
 
 ## Dokumentation
 
@@ -24,9 +24,11 @@ Dieses Übergangsupdate enthält die URL-Prüfung aus 0.9.96 und fordert zusätz
 
 Die deutsche eBay-Anmeldeweiterleitung aus 0.9.95 bleibt enthalten. Der zentrale Cloudflare-Anmeldedienst und die noch unveröffentlichten PIM-Änderungen gehören nicht zum Release 0.9.97.
 
-## Geplanter Repositoryname
+## Repositoryname und geprüfter Übergang
 
-Der gewünschte Name ist **Beydosh-PIM-Updates**. Die technische Repositoryadresse bleibt bis zur kompatiblen Umstellung `CrystalxSLY/beydosh-updates`. Version 0.9.97 enthält den geprüften Übergang einschließlich Wartungsanforderung. Bei der Kontrolle nach 0.9.96 war die App bereits aktuell, der installierte Launcher aber noch auf 0.9.77. Vor der Umbenennung muss die bestehende Nutzerinstallation einschließlich Launcher und Wartungskomponenten auf diesen Stand gebracht und der tatsächliche Abruf geprüft werden. Ältere Updater erlauben die Metadatenweiterleitung nicht. Der Repositoryname wurde deshalb noch nicht geändert.
+Das Repository heißt seit **7. Oktober 2026 Beydosh-PIM-Updates**. Die Nutzerinstallation einschließlich Launcher und Updatewerkzeug wurde auf 0.9.97 geprüft. Mit dem installierten Updater bestanden vor und nach der Umbenennung die signierten Downloads über die bisherige Adresse; auch die neue Adresse und das historische 0.9.95-Paket wurden geprüft.
+
+Historische signierte URLs und Paketbytes bleiben unverändert. Der ausgelieferte Übergangs-Updater verwendet weiterhin die alte Adresse als kompatiblen Alias. Den früheren Namen nicht für ein neues Repository wiederverwenden. Ältere Installationen ohne Übergangsupdate sind nicht pauschal bestätigt. [Abschlussnachweis](docs/releases/2026-10-07-update-channel-rename.md).
 
 ## Update installieren
 
